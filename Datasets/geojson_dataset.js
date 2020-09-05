@@ -1,4 +1,4 @@
-var dataset = {
+{
   "type": "FeatureCollection",
   "features": [
     {
@@ -1012,9 +1012,27 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 5205,
+        "address": "8350 FRUITRIDGE RD, SACRAMENTO, CA 95813",
+        "site_score": 44.46,
+        "med_hhd_inc_bg_acs_09_13": 21000.0,
+        "pct_no_health_ins_acs_09_13": 11.41,
+        "pct_poc": 33.54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.395831,
+          38.525168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 20701,
         "address": "PERRY HILL RD, COVENTRY, RI 02816",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 80000.0,
         "pct_no_health_ins_acs_09_13": 5.16,
         "pct_poc": 2.81
@@ -1024,24 +1042,6 @@ var dataset = {
         "coordinates": [
           -71.7158024,
           41.6800381
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 51305,
-        "address": "ROSE HILL RD, SOUTH KINGSTOWN, RI 02880",
-        "site_score": 38.11,
-        "med_hhd_inc_bg_acs_09_13": 62386.0,
-        "pct_no_health_ins_acs_09_13": 4.79,
-        "pct_poc": 8.26
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.4966569,
-          41.4737865
         ]
       }
     },
@@ -1194,7 +1194,7 @@ var dataset = {
       "properties": {
         "tract": 950500,
         "address": "Postal Address is unavailable for the Site, VIEQUES, PR 00765",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 19350.0,
         "pct_no_health_ins_acs_09_13": 6.04,
         "pct_poc": 96.17999999999999
@@ -1300,6 +1300,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 51305,
+        "address": "ROSE HILL RD, SOUTH KINGSTOWN, RI 02880",
+        "site_score": 38.11,
+        "med_hhd_inc_bg_acs_09_13": 62386.0,
+        "pct_no_health_ins_acs_09_13": 4.79,
+        "pct_poc": 8.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4966569,
+          41.4737865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 12801,
         "address": "MAIN ST, NORTH SMITHFIELD, RI 02824",
         "site_score": 34.07,
@@ -1318,36 +1336,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 51400,
-        "address": "PLAINS ROAD, SOUTH KINGSTOWN, RI 02881",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 35424.0,
-        "pct_no_health_ins_acs_09_13": 6.11,
-        "pct_poc": 17.25
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5420358,
-          41.4894497
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 0,
         "address": "RTE 3, JOBOS, PR 00654",
         "site_score": 35.34,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          NaN,
-          NaN
+          0.0,
+          0.0
         ]
       }
     },
@@ -1447,15 +1447,15 @@ var dataset = {
         "tract": 0,
         "address": "ROAD 670 KM 3.7 PALO ALTO, MANATI, PR 00701",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          NaN,
-          NaN
+          0.0,
+          0.0
         ]
       }
     },
@@ -1483,15 +1483,15 @@ var dataset = {
         "tract": 0,
         "address": "STATE ROAD #2 KM. 19.7 (ACUNA STREET), CANDELERIA WARD, PR 00759",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          NaN,
-          NaN
+          0.0,
+          0.0
         ]
       }
     },
@@ -1552,54 +1552,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 13002,
-        "address": "DOUGLAS PIKE, BURRILLVILLE, RI 02895",
-        "site_score": 51.35,
-        "med_hhd_inc_bg_acs_09_13": 62014.0,
-        "pct_no_health_ins_acs_09_13": 11.67,
-        "pct_poc": 1.55
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.6550962,
-          42.0080273
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 23202,
-        "address": "340 ROBINSON ROAD, GREER, SC 29651",
+        "tract": 51400,
+        "address": "PLAINS ROAD, SOUTH KINGSTOWN, RI 02881",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 37125.0,
-        "pct_no_health_ins_acs_09_13": 21.81,
-        "pct_poc": 47.7
+        "med_hhd_inc_bg_acs_09_13": 35424.0,
+        "pct_no_health_ins_acs_09_13": 6.11,
+        "pct_poc": 17.25
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.170567,
-          34.932742
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 920200,
-        "address": "NORTHERN SIDE OF SECONDARY HWY S-33-30, MCCORMICK, SC 29835",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 21029.0,
-        "pct_no_health_ins_acs_09_13": 8.18,
-        "pct_poc": 70.04999999999998
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.2934585,
-          33.9134577
+          -71.5420358,
+          41.4894497
         ]
       }
     },
@@ -1627,15 +1591,15 @@ var dataset = {
         "tract": 0,
         "address": "ROAD 674, KM 2, RIO ABAJO WARD, PR 00763",
         "site_score": 50.37,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          NaN,
-          NaN
+          0.0,
+          0.0
         ]
       }
     },
@@ -1768,18 +1732,54 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 5205,
-        "address": "8350 FRUITRIDGE RD, SACRAMENTO, CA 95813",
-        "site_score": 44.46,
-        "med_hhd_inc_bg_acs_09_13": 21000.0,
-        "pct_no_health_ins_acs_09_13": 11.41,
-        "pct_poc": 33.54
+        "tract": 13002,
+        "address": "DOUGLAS PIKE, BURRILLVILLE, RI 02895",
+        "site_score": 51.35,
+        "med_hhd_inc_bg_acs_09_13": 62014.0,
+        "pct_no_health_ins_acs_09_13": 11.67,
+        "pct_poc": 1.55
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.395831,
-          38.525168
+          -71.6550962,
+          42.0080273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 23202,
+        "address": "340 ROBINSON ROAD, GREER, SC 29651",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 37125.0,
+        "pct_no_health_ins_acs_09_13": 21.81,
+        "pct_poc": 47.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.170567,
+          34.932742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 920200,
+        "address": "NORTHERN SIDE OF SECONDARY HWY S-33-30, MCCORMICK, SC 29835",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 21029.0,
+        "pct_no_health_ins_acs_09_13": 8.18,
+        "pct_poc": 70.04999999999998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2934585,
+          33.9134577
         ]
       }
     },
@@ -2148,7 +2148,7 @@ var dataset = {
       "properties": {
         "tract": 2800,
         "address": "321 BLUFF RD S, COLUMBIA, SC 29209",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 23563.0,
         "pct_no_health_ins_acs_09_13": 28.46,
         "pct_poc": 27.43
@@ -2164,18 +2164,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 207102,
-        "address": "POLLOCK WELLFIELD, LOS ANGELES, CA 90086",
-        "site_score": 35.57,
-        "med_hhd_inc_bg_acs_09_13": 12647.0,
-        "pct_no_health_ins_acs_09_13": 32.46,
-        "pct_poc": 96.95
+        "tract": 21620,
+        "address": "719 PIPER STREET, COLLIERVILLE, TN 38017",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 50673.0,
+        "pct_no_health_ins_acs_09_13": 6.23,
+        "pct_poc": 54.54999999999999
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.24,
-          34.06
+          -89.6864738,
+          35.0446642
         ]
       }
     },
@@ -2272,10 +2272,46 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 960502,
+        "address": "GLENN SPRINGS RD, LAWRENCEBURG, TN 38464",
+        "site_score": 46.44,
+        "med_hhd_inc_bg_acs_09_13": 56486.0,
+        "pct_no_health_ins_acs_09_13": 9.35,
+        "pct_poc": 2.38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3756653,
+          35.225524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 207102,
+        "address": "POLLOCK WELLFIELD, LOS ANGELES, CA 90086",
+        "site_score": 35.57,
+        "med_hhd_inc_bg_acs_09_13": 12647.0,
+        "pct_no_health_ins_acs_09_13": 32.46,
+        "pct_poc": 96.95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24,
+          34.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 20200,
         "address": "44CSC/DE, ELLSWORTH AFB, SD 57706",
         "site_score": 33.62,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 29.499999999999996
       },
@@ -2488,30 +2524,12 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 960502,
-        "address": "GLENN SPRINGS RD, LAWRENCEBURG, TN 38464",
-        "site_score": 46.44,
-        "med_hhd_inc_bg_acs_09_13": 56486.0,
-        "pct_no_health_ins_acs_09_13": 9.35,
-        "pct_poc": 2.38
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.3756653,
-          35.225524
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 980100,
         "address": "BETHEL VALLEY ROAD, OAK RIDGE, TN 37830",
         "site_score": 51.13,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -2542,24 +2560,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 21620,
-        "address": "719 PIPER STREET, COLLIERVILLE, TN 38017",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 50673.0,
-        "pct_no_health_ins_acs_09_13": 6.23,
-        "pct_poc": 54.54999999999999
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.6864738,
-          35.0446642
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 3500,
         "address": "1508 MARYVILLE PIKE, KNOXVILLE, TN 37920",
         "site_score": 50.0,
@@ -2580,7 +2580,7 @@ var dataset = {
       "properties": {
         "tract": 1900,
         "address": "Postal Address is unavailable for the Site, CHATTANOOGA, TN 37410",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 16542.0,
         "pct_no_health_ins_acs_09_13": 9.97,
         "pct_poc": 94.7
@@ -2590,42 +2590,6 @@ var dataset = {
         "coordinates": [
           -85.3162066,
           35.0010118
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 950200,
-        "address": "201 NORTH GORDON STREET, Happy, TX 79042",
-        "site_score": 32.33,
-        "med_hhd_inc_bg_acs_09_13": 43558.0,
-        "pct_no_health_ins_acs_09_13": 24.42,
-        "pct_poc": 21.98
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -101.8543087,
-          34.745644
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 693101,
-        "address": "2ND &amp; HILBIG, CONROE, TX 77301",
-        "site_score": 37.29,
-        "med_hhd_inc_bg_acs_09_13": 44514.0,
-        "pct_no_health_ins_acs_09_13": 33.75,
-        "pct_poc": 61.96
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.4253757,
-          30.3120301
         ]
       }
     },
@@ -2884,54 +2848,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 211400,
-        "address": "SE OF CAVALCADE AND MAURY/BTWN BH&amp;T RR, HOUSTON, TX 77020",
-        "site_score": 38.69,
-        "med_hhd_inc_bg_acs_09_13": 19777.0,
-        "pct_no_health_ins_acs_09_13": 28.52,
-        "pct_poc": 96.24999999999999
+        "tract": 950200,
+        "address": "201 NORTH GORDON STREET, Happy, TX 79042",
+        "site_score": 32.33,
+        "med_hhd_inc_bg_acs_09_13": 43558.0,
+        "pct_no_health_ins_acs_09_13": 24.42,
+        "pct_poc": 21.98
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.3154784,
-          29.7692001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 100,
-        "address": "WEST 81ST ST AND MARY FRANCIS ST, ODESSA, TX 79764",
-        "site_score": 43.21,
-        "med_hhd_inc_bg_acs_09_13": 34900.0,
-        "pct_no_health_ins_acs_09_13": 32.29,
-        "pct_poc": 36.620000000000005
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -102.4285945,
-          31.9188279
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 10902,
-        "address": "NEAR STATE HWY 366 &amp; SARA JANE RD, PORT NECHES, TX 77651",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 104896.0,
-        "pct_no_health_ins_acs_09_13": 1.29,
-        "pct_poc": 5.92
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.9572374,
-          29.9726308
+          -101.8543087,
+          34.745644
         ]
       }
     },
@@ -3118,54 +3046,36 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 950400,
-        "address": "W. STATE ROAD 114, LEVELLAND, TX 79336",
-        "site_score": 42.41,
-        "med_hhd_inc_bg_acs_09_13": 30914.0,
-        "pct_no_health_ins_acs_09_13": 15.18,
-        "pct_poc": 74.26
+        "tract": 211400,
+        "address": "SE OF CAVALCADE AND MAURY/BTWN BH&amp;T RR, HOUSTON, TX 77020",
+        "site_score": 38.69,
+        "med_hhd_inc_bg_acs_09_13": 19777.0,
+        "pct_no_health_ins_acs_09_13": 28.52,
+        "pct_poc": 96.24999999999999
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.3778675,
-          33.5941526
+          -95.3154784,
+          29.7692001
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "tract": 701000,
-        "address": "STATE HGWY 146 &amp; FARM RD 519, TEXAS CITY, TX 77568",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 55991.0,
-        "pct_no_health_ins_acs_09_13": 30.49,
-        "pct_poc": 56.07
+        "tract": 100,
+        "address": "WEST 81ST ST AND MARY FRANCIS ST, ODESSA, TX 79764",
+        "site_score": 43.21,
+        "med_hhd_inc_bg_acs_09_13": 34900.0,
+        "pct_no_health_ins_acs_09_13": 32.29,
+        "pct_poc": 36.620000000000005
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.89397,
-          30.0305449
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 11100,
-        "address": "1001 LUBBOCK ST., TEXARKANA, TX 75501",
-        "site_score": 40.19,
-        "med_hhd_inc_bg_acs_09_13": 20875.0,
-        "pct_no_health_ins_acs_09_13": 21.65,
-        "pct_poc": 18.279999999999998
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.0486252,
-          33.4055618
+          -102.4285945,
+          31.9188279
         ]
       }
     },
@@ -3354,7 +3264,7 @@ var dataset = {
       "properties": {
         "tract": 722300,
         "address": "JCT HIGHWAYS 3 6 &amp; 75, LA MARQUE, TX 77590",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 30982.0,
         "pct_no_health_ins_acs_09_13": 23.34,
         "pct_poc": 65.69000000000001
@@ -3634,6 +3544,96 @@ var dataset = {
         "coordinates": [
           -95.3983782,
           29.6793527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 10902,
+        "address": "NEAR STATE HWY 366 &amp; SARA JANE RD, PORT NECHES, TX 77651",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 104896.0,
+        "pct_no_health_ins_acs_09_13": 1.29,
+        "pct_poc": 5.92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9572374,
+          29.9726308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 950400,
+        "address": "W. STATE ROAD 114, LEVELLAND, TX 79336",
+        "site_score": 42.41,
+        "med_hhd_inc_bg_acs_09_13": 30914.0,
+        "pct_no_health_ins_acs_09_13": 15.18,
+        "pct_poc": 74.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3778675,
+          33.5941526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 701000,
+        "address": "STATE HGWY 146 &amp; FARM RD 519, TEXAS CITY, TX 77568",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 55991.0,
+        "pct_no_health_ins_acs_09_13": 30.49,
+        "pct_poc": 56.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.89397,
+          30.0305449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 11100,
+        "address": "1001 LUBBOCK ST., TEXARKANA, TX 75501",
+        "site_score": 40.19,
+        "med_hhd_inc_bg_acs_09_13": 20875.0,
+        "pct_no_health_ins_acs_09_13": 21.65,
+        "pct_poc": 18.279999999999998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.0486252,
+          33.4055618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 693101,
+        "address": "2ND &amp; HILBIG, CONROE, TX 77301",
+        "site_score": 37.29,
+        "med_hhd_inc_bg_acs_09_13": 44514.0,
+        "pct_no_health_ins_acs_09_13": 33.75,
+        "pct_poc": 61.96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4253757,
+          30.3120301
         ]
       }
     },
@@ -4218,7 +4218,7 @@ var dataset = {
       "properties": {
         "tract": 800,
         "address": "PINE STREET, BURLINGTON, VT 05401",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 54598.0,
         "pct_no_health_ins_acs_09_13": 8.91,
         "pct_poc": 7.64
@@ -4254,7 +4254,7 @@ var dataset = {
       "properties": {
         "tract": 40102,
         "address": "3490 PYRITE ST, MIRA LOMA, CA 91752",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 79057.0,
         "pct_no_health_ins_acs_09_13": 13.74,
         "pct_poc": 69.50000000000001
@@ -4273,9 +4273,9 @@ var dataset = {
         "tract": 0,
         "address": "TUTU AREA ANNA'S RETREAT, TUTU, VI 00801",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -4462,6 +4462,78 @@ var dataset = {
         "coordinates": [
           -122.6738454,
           38.9944987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 212400,
+        "address": "VICTORY BOULEVARD, PORTSMOUTH, VA 23709",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 13421.0,
+        "pct_no_health_ins_acs_09_13": 11.34,
+        "pct_poc": 90.01000000000002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3334076,
+          36.7960918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 212300,
+        "address": "3850 ELM AVENUE, PORTSMOUTH, VA 23704",
+        "site_score": 48.52,
+        "med_hhd_inc_bg_acs_09_13": 27167.0,
+        "pct_no_health_ins_acs_09_13": 25.56,
+        "pct_poc": 64.31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.308818,
+          36.807789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 977000,
+        "address": "Postal Address is unavailable for the Site, RIO GRANDE COUNTY, CO 81132",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 43603.0,
+        "pct_no_health_ins_acs_09_13": 16.65,
+        "pct_poc": 21.12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3934777,
+          37.6231283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 966100,
+        "address": "NEAR URAVAN ON HWY 141, URAVAN, CO 81436",
+        "site_score": 43.53,
+        "med_hhd_inc_bg_acs_09_13": 34688.0,
+        "pct_no_health_ins_acs_09_13": 14.6,
+        "pct_poc": 8.790000000000001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.7364871,
+          38.3683225
         ]
       }
     },
@@ -4756,42 +4828,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 212400,
-        "address": "VICTORY BOULEVARD, PORTSMOUTH, VA 23709",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 13421.0,
-        "pct_no_health_ins_acs_09_13": 11.34,
-        "pct_poc": 90.01000000000002
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.3334076,
-          36.7960918
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 212300,
-        "address": "3850 ELM AVENUE, PORTSMOUTH, VA 23704",
-        "site_score": 48.52,
-        "med_hhd_inc_bg_acs_09_13": 27167.0,
-        "pct_no_health_ins_acs_09_13": 25.56,
-        "pct_poc": 64.31
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.308818,
-          36.807789
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 200600,
         "address": "OAKVIEW AVE &amp; PEYTON STS, RICHMOND, VA 23228",
         "site_score": 30.34,
@@ -4840,24 +4876,6 @@ var dataset = {
         "coordinates": [
           -76.5802299,
           36.8618157
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 9900,
-        "address": "3443 W. MARGINAL WAY, SEATTLE, WA 98106",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 56964.0,
-        "pct_no_health_ins_acs_09_13": 6.39,
-        "pct_poc": 28.739999999999995
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3630309,
-          47.5725111
         ]
       }
     },
@@ -4992,7 +5010,7 @@ var dataset = {
       "properties": {
         "tract": 41112,
         "address": "7608 NORTHEAST 47TH STREET, VANCOUVER, WA 98661",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 66827.0,
         "pct_no_health_ins_acs_09_13": 7.6,
         "pct_poc": 18.28
@@ -5170,6 +5188,42 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 970200,
+        "address": "UNSPECIFIED, WHIDBEY ISLAND, WA 98278",
+        "site_score": 47.58,
+        "med_hhd_inc_bg_acs_09_13": 39038.0,
+        "pct_no_health_ins_acs_09_13": 3.12,
+        "pct_poc": 30.73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6898122,
+          48.3321731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 91100,
+        "address": "HWY 308, E END, KEYPORT, WA 98345",
+        "site_score": 33.6,
+        "med_hhd_inc_bg_acs_09_13": 95111.0,
+        "pct_no_health_ins_acs_09_13": 9.09,
+        "pct_poc": 8.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.625508,
+          47.701752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 42600,
         "address": "113 Y ST, VANCOUVER, WA 98661",
         "site_score": 57.93,
@@ -5224,24 +5278,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 71805,
-        "address": "E. OF NEW YORK AVE, S. OF PACIFIC HWY S., LAKEWOOD, WA 98438",
-        "site_score": 42.49,
-        "med_hhd_inc_bg_acs_09_13": 23750.0,
-        "pct_no_health_ins_acs_09_13": 22.3,
-        "pct_poc": 61.330000000000005
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.503376,
-          47.1499353
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 13100,
         "address": "LIBERTY LK, SPOKANE COUNTY, WA 99019",
         "site_score": 28.9,
@@ -5281,7 +5317,7 @@ var dataset = {
         "tract": 252802,
         "address": "TRAVIS AFB, TRAVIS AFB, CA 94535",
         "site_score": 29.49,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 36.35
       },
@@ -5299,7 +5335,7 @@ var dataset = {
         "tract": 12000,
         "address": "100 AREA, BENTON COUNTY, WA 99352",
         "site_score": 46.38,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 33.33,
         "pct_poc": 20.0
       },
@@ -5344,6 +5380,78 @@ var dataset = {
         "coordinates": [
           -119.2934654,
           46.239409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 11201,
+        "address": "E 3225 LINCOLN RD, SPOKANE, WA 99207",
+        "site_score": 32.61,
+        "med_hhd_inc_bg_acs_09_13": 40227.0,
+        "pct_no_health_ins_acs_09_13": 8.12,
+        "pct_poc": 9.239999999999998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3629739,
+          47.7300677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 3500,
+        "address": "VASQUEZ BOULEVARD AND 1-70, DENVER, CO 80216",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 38333.0,
+        "pct_no_health_ins_acs_09_13": 27.96,
+        "pct_poc": 89.69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9470786,
+          39.7842563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 290100,
+        "address": "ROUTE 44, BARKHAMSTED, CT 06063",
+        "site_score": 38.05,
+        "med_hhd_inc_bg_acs_09_13": 86111.0,
+        "pct_no_health_ins_acs_09_13": 1.12,
+        "pct_poc": 2.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.042602,
+          41.911585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 16404,
+        "address": "745 GOVERNOR LEA RD, NEW CASTLE, DE 19720",
+        "site_score": 35.42,
+        "med_hhd_inc_bg_acs_09_13": 66563.0,
+        "pct_no_health_ins_acs_09_13": 4.03,
+        "pct_poc": 25.700000000000003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.636154,
+          39.598929
         ]
       }
     },
@@ -5416,6 +5524,42 @@ var dataset = {
         "coordinates": [
           -117.3932074,
           47.6939041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 71805,
+        "address": "E. OF NEW YORK AVE, S. OF PACIFIC HWY S., LAKEWOOD, WA 98438",
+        "site_score": 42.49,
+        "med_hhd_inc_bg_acs_09_13": 23750.0,
+        "pct_no_health_ins_acs_09_13": 22.3,
+        "pct_poc": 61.330000000000005
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.503376,
+          47.1499353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 9900,
+        "address": "3443 W. MARGINAL WAY, SEATTLE, WA 98106",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 56964.0,
+        "pct_no_health_ins_acs_09_13": 6.39,
+        "pct_poc": 28.739999999999995
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3630309,
+          47.5725111
         ]
       }
     },
@@ -5548,60 +5692,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 970200,
-        "address": "UNSPECIFIED, WHIDBEY ISLAND, WA 98278",
-        "site_score": 47.58,
-        "med_hhd_inc_bg_acs_09_13": 39038.0,
-        "pct_no_health_ins_acs_09_13": 3.12,
-        "pct_poc": 30.73
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.6898122,
-          48.3321731
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 91100,
-        "address": "HWY 308, E END, KEYPORT, WA 98345",
-        "site_score": 33.6,
-        "med_hhd_inc_bg_acs_09_13": 95111.0,
-        "pct_no_health_ins_acs_09_13": 9.09,
-        "pct_poc": 8.25
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.625508,
-          47.701752
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 11201,
-        "address": "E 3225 LINCOLN RD, SPOKANE, WA 99207",
-        "site_score": 32.61,
-        "med_hhd_inc_bg_acs_09_13": 40227.0,
-        "pct_no_health_ins_acs_09_13": 8.12,
-        "pct_poc": 9.239999999999998
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.3629739,
-          47.7300677
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 10601,
         "address": "W 5502 NINEMILE RD, SPOKANE, WA 99208",
         "site_score": 28.9,
@@ -5659,8 +5749,8 @@ var dataset = {
         "tract": 92600,
         "address": "Postal Address is unavailable for the Site, MANCHESTER, WA 98352",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 0.0
       },
       "geometry": {
@@ -5818,6 +5908,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 351300,
+        "address": "STORE AVENUE, WATERBURY, CT 06705",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 49797.0,
+        "pct_no_health_ins_acs_09_13": 3.54,
+        "pct_poc": 56.57
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0104267,
+          41.5525298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 42500,
         "address": "E. RESERVE AND N.E. FOURTH PLAIN BLVD., VANCOUVER, WA 98663",
         "site_score": 50.0,
@@ -5938,6 +6046,42 @@ var dataset = {
         "coordinates": [
           -80.1135989,
           39.513239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 1601,
+        "address": "CO LINE RD &amp; FOLEY RD, CALEDONIA, WI 53108",
+        "site_score": 31.02,
+        "med_hhd_inc_bg_acs_09_13": 90385.0,
+        "pct_no_health_ins_acs_09_13": 3.49,
+        "pct_poc": 10.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9432837,
+          42.8161325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 1202,
+        "address": "BLACK BRIDGE RD, JANESVILLE, WI 53545",
+        "site_score": 57.9,
+        "med_hhd_inc_bg_acs_09_13": 41949.0,
+        "pct_no_health_ins_acs_09_13": 3.95,
+        "pct_poc": 14.959999999999999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0085334,
+          42.7044101
         ]
       }
     },
@@ -6106,9 +6250,81 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 1202,
+        "address": "BLACK BRIDGE ROAD, JANESVILLE, WI 53545",
+        "site_score": 57.93,
+        "med_hhd_inc_bg_acs_09_13": 41949.0,
+        "pct_no_health_ins_acs_09_13": 3.95,
+        "pct_poc": 14.959999999999999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0085334,
+          42.7044101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 12700,
+        "address": "JAMES &amp; WATER STS, NEWPORT, DE 19804",
+        "site_score": 51.91,
+        "med_hhd_inc_bg_acs_09_13": 37361.0,
+        "pct_no_health_ins_acs_09_13": 13.59,
+        "pct_poc": 39.790000000000006
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6093709,
+          39.7137237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 15502,
+        "address": "600 TERMINAL AVE, NEW CASTLE, DE 19720",
+        "site_score": 30.9,
+        "med_hhd_inc_bg_acs_09_13": 33340.0,
+        "pct_no_health_ins_acs_09_13": 15.8,
+        "pct_poc": 81.87
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5365402,
+          39.7186361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 14810,
+        "address": "OLD COUNTY RD, KIRKWOOD, DE 19708",
+        "site_score": 30.77,
+        "med_hhd_inc_bg_acs_09_13": 107804.0,
+        "pct_no_health_ins_acs_09_13": 4.03,
+        "pct_poc": 19.939999999999998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6976136,
+          39.5705385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 955000,
         "address": "ROUTE 1 BOX 125, POINT PLEASANT, WV 25550",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 29152.0,
         "pct_no_health_ins_acs_09_13": 23.67,
         "pct_poc": 4.63
@@ -6286,60 +6502,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 1601,
-        "address": "CO LINE RD &amp; FOLEY RD, CALEDONIA, WI 53108",
-        "site_score": 31.02,
-        "med_hhd_inc_bg_acs_09_13": 90385.0,
-        "pct_no_health_ins_acs_09_13": 3.49,
-        "pct_poc": 10.25
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.9432837,
-          42.8161325
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 1202,
-        "address": "BLACK BRIDGE RD, JANESVILLE, WI 53545",
-        "site_score": 57.9,
-        "med_hhd_inc_bg_acs_09_13": 41949.0,
-        "pct_no_health_ins_acs_09_13": 3.95,
-        "pct_poc": 14.959999999999999
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.0085334,
-          42.7044101
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 1202,
-        "address": "BLACK BRIDGE ROAD, JANESVILLE, WI 53545",
-        "site_score": 57.93,
-        "med_hhd_inc_bg_acs_09_13": 41949.0,
-        "pct_no_health_ins_acs_09_13": 3.95,
-        "pct_poc": 14.959999999999999
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.0085334,
-          42.7044101
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 10700,
         "address": "444 HIGHLAND DRIVE, KOHLER, WI 53044",
         "site_score": 42.93,
@@ -6484,42 +6646,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 585100,
-        "address": "124 MAIN ST, DURHAM, CT 06422",
-        "site_score": 33.94,
-        "med_hhd_inc_bg_acs_09_13": 114474.0,
-        "pct_no_health_ins_acs_09_13": 10.5,
-        "pct_poc": 5.52
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.6809973,
-          41.4726856
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 907300,
-        "address": "ROUTE 12, PLAINFIELD, CT 06374",
-        "site_score": 46.29,
-        "med_hhd_inc_bg_acs_09_13": 63036.0,
-        "pct_no_health_ins_acs_09_13": 10.38,
-        "pct_poc": 8.41
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.91406309999999,
-          41.6861127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 202,
         "address": "8716 N GRANVILLE ROAD, MILWAUKEE, WI 53244",
         "site_score": 32.14,
@@ -6532,6 +6658,60 @@ var dataset = {
         "coordinates": [
           -88.04149,
           43.176209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 508704,
+        "address": "401 HENDY AVENUE, SUNNYVALE, CA 95117",
+        "site_score": 39.93,
+        "med_hhd_inc_bg_acs_09_13": 77333.0,
+        "pct_no_health_ins_acs_09_13": 15.05,
+        "pct_poc": 66.46000000000001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0250022,
+          37.3774988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 12700,
+        "address": "FOOT OF LINDBURG ST, NEWPORT, DE 19804",
+        "site_score": 33.56,
+        "med_hhd_inc_bg_acs_09_13": 37361.0,
+        "pct_no_health_ins_acs_09_13": 13.59,
+        "pct_poc": 39.790000000000006
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6093709,
+          39.7137237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 50602,
+        "address": "MITCHELL RD POB 607, MILLSBORO, DE 19966",
+        "site_score": 38.21,
+        "med_hhd_inc_bg_acs_09_13": 37434.0,
+        "pct_no_health_ins_acs_09_13": 9.27,
+        "pct_poc": 44.050000000000004
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2913018,
+          38.5915023
         ]
       }
     },
@@ -6558,7 +6738,7 @@ var dataset = {
       "properties": {
         "tract": 11000,
         "address": "725 SOUTH OUTAGAMIE STREET, APPLETON, WI 54914",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 29625.0,
         "pct_no_health_ins_acs_09_13": 7.51,
         "pct_poc": 15.860000000000001
@@ -6604,78 +6784,6 @@ var dataset = {
         "coordinates": [
           -88.5209427,
           43.2140826
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 80800,
-        "address": "75 EAST MAIN STREET, STRATFORD, CT 06497",
-        "site_score": NaN,
-        "med_hhd_inc_bg_acs_09_13": 48438.0,
-        "pct_no_health_ins_acs_09_13": 4.1,
-        "pct_poc": 17.86
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.1168647,
-          41.2014349
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 351300,
-        "address": "STORE AVENUE, WATERBURY, CT 06705",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 49797.0,
-        "pct_no_health_ins_acs_09_13": 3.54,
-        "pct_poc": 56.57
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.0104267,
-          41.5525298
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 14810,
-        "address": "OLD COUNTY RD, KIRKWOOD, DE 19708",
-        "site_score": 30.77,
-        "med_hhd_inc_bg_acs_09_13": 107804.0,
-        "pct_no_health_ins_acs_09_13": 4.03,
-        "pct_poc": 19.939999999999998
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.6976136,
-          39.5705385
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 12700,
-        "address": "FOOT OF LINDBURG ST, NEWPORT, DE 19804",
-        "site_score": 33.56,
-        "med_hhd_inc_bg_acs_09_13": 37361.0,
-        "pct_no_health_ins_acs_09_13": 13.59,
-        "pct_poc": 39.790000000000006
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.6093709,
-          39.7137237
         ]
       }
     },
@@ -6754,24 +6862,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 508704,
-        "address": "401 HENDY AVENUE, SUNNYVALE, CA 95117",
-        "site_score": 39.93,
-        "med_hhd_inc_bg_acs_09_13": 77333.0,
-        "pct_no_health_ins_acs_09_13": 15.05,
-        "pct_poc": 66.46000000000001
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.0250022,
-          37.3774988
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 200,
         "address": "LANDFILL ROAD 10 MILE WEST BARABOO, EXCELSIOR, WI 53959",
         "site_score": 34.21,
@@ -6802,24 +6892,6 @@ var dataset = {
         "coordinates": [
           -88.3957039,
           44.2095371
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 12700,
-        "address": "JAMES &amp; WATER STS, NEWPORT, DE 19804",
-        "site_score": 51.91,
-        "med_hhd_inc_bg_acs_09_13": 37361.0,
-        "pct_no_health_ins_acs_09_13": 13.59,
-        "pct_poc": 39.790000000000006
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.6093709,
-          39.7137237
         ]
       }
     },
@@ -6874,6 +6946,24 @@ var dataset = {
         "coordinates": [
           -90.2968012,
           44.7577418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 961700,
+        "address": "S OF CY-YAK TUNNEL DOWNSTREAM, LEADVILLE, CO 80461",
+        "site_score": 55.84,
+        "med_hhd_inc_bg_acs_09_13": 37609.0,
+        "pct_no_health_ins_acs_09_13": 28.59,
+        "pct_poc": 33.589999999999996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2925238,
+          39.2508229
         ]
       }
     },
@@ -7042,24 +7132,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 15502,
-        "address": "600 TERMINAL AVE, NEW CASTLE, DE 19720",
-        "site_score": 30.9,
-        "med_hhd_inc_bg_acs_09_13": 33340.0,
-        "pct_no_health_ins_acs_09_13": 15.8,
-        "pct_poc": 81.87
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.5365402,
-          39.7186361
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 9553,
         "address": "5600 HURON ST, DENVER, CO 80221",
         "site_score": 35.13,
@@ -7072,24 +7144,6 @@ var dataset = {
         "coordinates": [
           -104.9961063,
           39.7982913
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 961700,
-        "address": "S OF CY-YAK TUNNEL DOWNSTREAM, LEADVILLE, CO 80461",
-        "site_score": 55.84,
-        "med_hhd_inc_bg_acs_09_13": 37609.0,
-        "pct_no_health_ins_acs_09_13": 28.59,
-        "pct_poc": 33.589999999999996
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.2925238,
-          39.2508229
         ]
       }
     },
@@ -7260,7 +7314,7 @@ var dataset = {
       "properties": {
         "tract": 60600,
         "address": "1600 S 66TH STREET, BOULDER, CO 80303",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 95565.0,
         "pct_no_health_ins_acs_09_13": 1.0,
         "pct_poc": 19.740000000000002
@@ -7315,9 +7369,9 @@ var dataset = {
         "tract": 8538,
         "address": "IMMED N STAPLETON INTL ARPT, ADAMS COUNTY, CO 80022",
         "site_score": 58.15,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -7366,78 +7420,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 977000,
-        "address": "Postal Address is unavailable for the Site, RIO GRANDE COUNTY, CO 81132",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 43603.0,
-        "pct_no_health_ins_acs_09_13": 16.65,
-        "pct_poc": 21.12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.3934777,
-          37.6231283
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 966100,
-        "address": "NEAR URAVAN ON HWY 141, URAVAN, CO 81436",
-        "site_score": 43.53,
-        "med_hhd_inc_bg_acs_09_13": 34688.0,
-        "pct_no_health_ins_acs_09_13": 14.6,
-        "pct_poc": 8.790000000000001
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.7364871,
-          38.3683225
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 3500,
-        "address": "VASQUEZ BOULEVARD AND 1-70, DENVER, CO 80216",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 38333.0,
-        "pct_no_health_ins_acs_09_13": 27.96,
-        "pct_poc": 89.69
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.9470786,
-          39.7842563
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 290100,
-        "address": "ROUTE 44, BARKHAMSTED, CT 06063",
-        "site_score": 38.05,
-        "med_hhd_inc_bg_acs_09_13": 86111.0,
-        "pct_no_health_ins_acs_09_13": 1.12,
-        "pct_poc": 2.53
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.042602,
-          41.911585
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 341100,
         "address": "BLACKBERRY HILL ROAD, BEACON FALLS, CT 06403",
         "site_score": 46.77,
@@ -7450,6 +7432,42 @@ var dataset = {
         "coordinates": [
           -73.0312892,
           41.4374447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 585100,
+        "address": "124 MAIN ST, DURHAM, CT 06422",
+        "site_score": 33.94,
+        "med_hhd_inc_bg_acs_09_13": 114474.0,
+        "pct_no_health_ins_acs_09_13": 10.5,
+        "pct_poc": 5.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6809973,
+          41.4726856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 907300,
+        "address": "ROUTE 12, PLAINFIELD, CT 06374",
+        "site_score": 46.29,
+        "med_hhd_inc_bg_acs_09_13": 63036.0,
+        "pct_no_health_ins_acs_09_13": 10.38,
+        "pct_poc": 8.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.91406309999999,
+          41.6861127
         ]
       }
     },
@@ -7476,7 +7494,7 @@ var dataset = {
       "properties": {
         "tract": 345300,
         "address": "HUNTERS MTN RD, NAUGATUCK BOROUGH, CT 06770",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 36765.0,
         "pct_no_health_ins_acs_09_13": 5.5600000000000005,
         "pct_poc": 16.55
@@ -7531,9 +7549,9 @@ var dataset = {
         "tract": 980000,
         "address": "ROUTE 12 CRYSTAL LAKE RD, NEW LONDON, CT 06349",
         "site_score": 36.53,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
-        "pct_poc": NaN
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -7549,8 +7567,8 @@ var dataset = {
         "tract": 980000,
         "address": "ROUTE 12 CRYSTAL LAKE RD, NEW LONDON, CT 06349",
         "site_score": 36.53,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 23.650000000000002
       },
       "geometry": {
@@ -7594,6 +7612,24 @@ var dataset = {
         "coordinates": [
           -72.4461784,
           41.8502475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 80800,
+        "address": "75 EAST MAIN STREET, STRATFORD, CT 06497",
+        "site_score": 0.0,
+        "med_hhd_inc_bg_acs_09_13": 48438.0,
+        "pct_no_health_ins_acs_09_13": 4.1,
+        "pct_poc": 17.86
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1168647,
+          41.2014349
         ]
       }
     },
@@ -7762,42 +7798,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 50602,
-        "address": "MITCHELL RD POB 607, MILLSBORO, DE 19966",
-        "site_score": 38.21,
-        "med_hhd_inc_bg_acs_09_13": 37434.0,
-        "pct_no_health_ins_acs_09_13": 9.27,
-        "pct_poc": 44.050000000000004
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.2913018,
-          38.5915023
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 16404,
-        "address": "745 GOVERNOR LEA RD, NEW CASTLE, DE 19720",
-        "site_score": 35.42,
-        "med_hhd_inc_bg_acs_09_13": 66563.0,
-        "pct_no_health_ins_acs_09_13": 4.03,
-        "pct_poc": 25.700000000000003
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.636154,
-          39.598929
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 302,
         "address": "1436 S APACHE POWDER RD, SAINT DAVID, AZ 85630",
         "site_score": 39.09,
@@ -7818,7 +7818,7 @@ var dataset = {
       "properties": {
         "tract": 16200,
         "address": "US RTE 13 &amp; DEL RTE 71, NEW CASTLE, DE 19720",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 43625.0,
         "pct_no_health_ins_acs_09_13": 4.58,
         "pct_poc": 10.860000000000001
@@ -7990,78 +7990,6 @@ var dataset = {
         "coordinates": [
           -81.7767623,
           30.247713
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 10600,
-        "address": "Postal Address is unavailable for the Site, MILTON, FL 32570",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 33962.0,
-        "pct_no_health_ins_acs_09_13": 20.43,
-        "pct_poc": 21.52
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.0396881,
-          30.6324149
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 41300,
-        "address": "1300 N. W. 34TH AVENUE, FORT LAUDERDALE, FL 33311",
-        "site_score": 31.72,
-        "med_hhd_inc_bg_acs_09_13": 42558.0,
-        "pct_no_health_ins_acs_09_13": 16.29,
-        "pct_poc": 98.66000000000001
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.1925786,
-          26.1354969
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 17901,
-        "address": "803 JONES AVE, ZELLWOOD, FL 32757",
-        "site_score": 51.91,
-        "med_hhd_inc_bg_acs_09_13": 64194.0,
-        "pct_no_health_ins_acs_09_13": 29.99,
-        "pct_poc": 68.61
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.6346381,
-          28.7306427
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 1200,
-        "address": "2736 WALDEN DR, AUGUSTA, GA 30904",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 24531.0,
-        "pct_no_health_ins_acs_09_13": 16.08,
-        "pct_poc": 87.30999999999999
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.0367325,
-          33.4546277
         ]
       }
     },
@@ -8278,24 +8206,6 @@ var dataset = {
         "coordinates": [
           -85.3421466,
           31.3514663
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 13900,
-        "address": "4520 BROADWAY ROAD, MACON, GA 31206",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 25536.0,
-        "pct_no_health_ins_acs_09_13": 18.21,
-        "pct_poc": 60.07
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.653453,
-          32.7767465
         ]
       }
     },
@@ -8590,24 +8500,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 401,
-        "address": "PERRY LANE ROAD, BRUNSWICK, GA 31520",
-        "site_score": 54.49,
-        "med_hhd_inc_bg_acs_09_13": 40202.0,
-        "pct_no_health_ins_acs_09_13": 16.22,
-        "pct_poc": 20.6
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.5233397,
-          31.2469532
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 11700,
         "address": "5150 PICKETTVILLE RD, JACKSONVILLE, FL 32205",
         "site_score": 42.94,
@@ -8757,7 +8649,7 @@ var dataset = {
         "site_score": 39.83,
         "med_hhd_inc_bg_acs_09_13": 46875.0,
         "pct_no_health_ins_acs_09_13": 28.03,
-        "pct_poc": NaN
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -8770,83 +8662,11 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 90400,
-        "address": "131 EAST BENNETT STREET, CAMILLA, GA 31730",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 24811.0,
-        "pct_no_health_ins_acs_09_13": 14.63,
-        "pct_poc": 76.99
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.2038563,
-          31.2231492
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 10510,
-        "address": "ADJACENT TO PEACH ORCHARD ROAD, AUGUSTA, GA",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 33750.0,
-        "pct_no_health_ins_acs_09_13": 16.65,
-        "pct_poc": 43.33
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.023745,
-          33.407331
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 20600,
-        "address": "ROBINS AFB, HOUSTON COUNTY, GA 31098",
-        "site_score": 51.66,
-        "med_hhd_inc_bg_acs_09_13": 51579.0,
-        "pct_no_health_ins_acs_09_13": 3.15,
-        "pct_poc": 29.68
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.5821872,
-          32.6106269
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 522800,
-        "address": "WILLIAMS AFB, CHANDLER, AZ 85224",
-        "site_score": 37.93,
-        "med_hhd_inc_bg_acs_09_13": 34125.0,
-        "pct_no_health_ins_acs_09_13": 14.69,
-        "pct_poc": 27.01
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.681736,
-          33.3107603
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 90702,
         "address": "2010 HWY 92, DELAND, FL 32724",
         "site_score": 39.83,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 23.279999999999998
       },
       "geometry": {
@@ -9076,6 +8896,186 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 10600,
+        "address": "Postal Address is unavailable for the Site, MILTON, FL 32570",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 33962.0,
+        "pct_no_health_ins_acs_09_13": 20.43,
+        "pct_poc": 21.52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.0396881,
+          30.6324149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 41300,
+        "address": "1300 N. W. 34TH AVENUE, FORT LAUDERDALE, FL 33311",
+        "site_score": 31.72,
+        "med_hhd_inc_bg_acs_09_13": 42558.0,
+        "pct_no_health_ins_acs_09_13": 16.29,
+        "pct_poc": 98.66000000000001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1925786,
+          26.1354969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 17901,
+        "address": "803 JONES AVE, ZELLWOOD, FL 32757",
+        "site_score": 51.91,
+        "med_hhd_inc_bg_acs_09_13": 64194.0,
+        "pct_no_health_ins_acs_09_13": 29.99,
+        "pct_poc": 68.61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6346381,
+          28.7306427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 1200,
+        "address": "2736 WALDEN DR, AUGUSTA, GA 30904",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 24531.0,
+        "pct_no_health_ins_acs_09_13": 16.08,
+        "pct_poc": 87.30999999999999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0367325,
+          33.4546277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 13900,
+        "address": "4520 BROADWAY ROAD, MACON, GA 31206",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 25536.0,
+        "pct_no_health_ins_acs_09_13": 18.21,
+        "pct_poc": 60.07
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.653453,
+          32.7767465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 401,
+        "address": "PERRY LANE ROAD, BRUNSWICK, GA 31520",
+        "site_score": 54.49,
+        "med_hhd_inc_bg_acs_09_13": 40202.0,
+        "pct_no_health_ins_acs_09_13": 16.22,
+        "pct_poc": 20.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5233397,
+          31.2469532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 90400,
+        "address": "131 EAST BENNETT STREET, CAMILLA, GA 31730",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 24811.0,
+        "pct_no_health_ins_acs_09_13": 14.63,
+        "pct_poc": 76.99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2038563,
+          31.2231492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 10510,
+        "address": "ADJACENT TO PEACH ORCHARD ROAD, AUGUSTA, GA",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 33750.0,
+        "pct_no_health_ins_acs_09_13": 16.65,
+        "pct_poc": 43.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.023745,
+          33.407331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 20600,
+        "address": "ROBINS AFB, HOUSTON COUNTY, GA 31098",
+        "site_score": 51.66,
+        "med_hhd_inc_bg_acs_09_13": 51579.0,
+        "pct_no_health_ins_acs_09_13": 3.15,
+        "pct_poc": 29.68
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5821872,
+          32.6106269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 522800,
+        "address": "WILLIAMS AFB, CHANDLER, AZ 85224",
+        "site_score": 37.93,
+        "med_hhd_inc_bg_acs_09_13": 34125.0,
+        "pct_no_health_ins_acs_09_13": 14.69,
+        "pct_poc": 27.01
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.681736,
+          33.3107603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 940900,
         "address": "NOGALES HWY, TUCSON, AZ 85734",
         "site_score": 57.8,
@@ -9150,7 +9150,7 @@ var dataset = {
       "properties": {
         "tract": 700,
         "address": "4014 ROSS RD, BRUNSWICK, GA 31520",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 20998.0,
         "pct_no_health_ins_acs_09_13": 51.45,
         "pct_poc": 48.029999999999994
@@ -9277,9 +9277,9 @@ var dataset = {
         "tract": 0,
         "address": "PERIMETER RD, YIGO, GU 96929",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -9294,10 +9294,10 @@ var dataset = {
       "properties": {
         "tract": 0,
         "address": "SAN CARLOS STREET ORDOT, AGANA, GU 96910",
-        "site_score": NaN,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "site_score": 0.0,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -9421,7 +9421,7 @@ var dataset = {
         "tract": 11800,
         "address": "AVENUE 3E, YUMA, AZ 85369",
         "site_score": 32.24,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 1.4,
         "pct_poc": 70.18000000000002
       },
@@ -9816,7 +9816,7 @@ var dataset = {
       "properties": {
         "tract": 480300,
         "address": "49 PHILLIPS ROAD 311 (HIGHWAY 242 SOUTH), WEST HELENA, AR 72342",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 29667.0,
         "pct_no_health_ins_acs_09_13": 9.31,
         "pct_poc": 58.21
@@ -9888,7 +9888,7 @@ var dataset = {
       "properties": {
         "tract": 862200,
         "address": "200 SEA HORSE DR, WAUKEGAN, IL 60085",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 23750.0,
         "pct_no_health_ins_acs_09_13": 14.68,
         "pct_poc": 73.18000000000002
@@ -9916,24 +9916,6 @@ var dataset = {
         "coordinates": [
           -89.0657027,
           42.1831084
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 10100,
-        "address": "424 FAIRVIEW AVENUE, BELVIDERE, IL 610082308",
-        "site_score": 55.58,
-        "med_hhd_inc_bg_acs_09_13": 64148.0,
-        "pct_no_health_ins_acs_09_13": 11.09,
-        "pct_poc": 28.8
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.8359453,
-          42.269274
         ]
       }
     },
@@ -10186,6 +10168,24 @@ var dataset = {
         "coordinates": [
           -88.842908,
           41.346603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 10100,
+        "address": "424 FAIRVIEW AVENUE, BELVIDERE, IL 610082308",
+        "site_score": 55.58,
+        "med_hhd_inc_bg_acs_09_13": 64148.0,
+        "pct_no_health_ins_acs_09_13": 11.09,
+        "pct_poc": 28.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8359453,
+          42.269274
         ]
       }
     },
@@ -10618,24 +10618,6 @@ var dataset = {
         "coordinates": [
           -99.8794744,
           37.7957939
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 20900,
-        "address": "RTE. 1526 AT THE GRAVEL ROAD, SHEPHERDSVILLE, KY 40109",
-        "site_score": 33.82,
-        "med_hhd_inc_bg_acs_09_13": 48281.0,
-        "pct_no_health_ins_acs_09_13": 10.35,
-        "pct_poc": 1.56
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.751283,
-          38.0658795
         ]
       }
     },
@@ -11148,7 +11130,7 @@ var dataset = {
       "properties": {
         "tract": 967800,
         "address": "G AVE WEST - FREEMAN MUNICIPAL AIRPORT, SEYMOUR, IN 47274",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 34395.0,
         "pct_no_health_ins_acs_09_13": 18.67,
         "pct_poc": 18.22
@@ -11902,6 +11884,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 20900,
+        "address": "RTE. 1526 AT THE GRAVEL ROAD, SHEPHERDSVILLE, KY 40109",
+        "site_score": 33.82,
+        "med_hhd_inc_bg_acs_09_13": 48281.0,
+        "pct_no_health_ins_acs_09_13": 10.35,
+        "pct_poc": 1.56
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.751283,
+          38.0658795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 13700,
         "address": "ABUNDANCE STREET, NEW ORLEANS, LA 70126",
         "site_score": 50.0,
@@ -12553,7 +12553,7 @@ var dataset = {
         "tract": 250500,
         "address": "2401 HAWKINS POINT RD, BALTIMORE, MD 21226",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 100.0
       },
@@ -12661,7 +12661,7 @@ var dataset = {
         "tract": 260605,
         "address": "KANE &amp; LOMBARD STS, BALTIMORE, MD 21224",
         "site_score": 30.15,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 41.17
       },
@@ -13036,24 +13036,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 810100,
-        "address": "10 WATER ST, PALMER, MA 01069",
-        "site_score": 38.66,
-        "med_hhd_inc_bg_acs_09_13": 41111.0,
-        "pct_no_health_ins_acs_09_13": 1.92,
-        "pct_poc": 5.24
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.3290698,
-          42.1546281
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 742402,
         "address": "FISHER ST, WESTBOROUGH, MA 01581",
         "site_score": 44.8,
@@ -13164,7 +13146,7 @@ var dataset = {
       "properties": {
         "tract": 651500,
         "address": "ACUSHNET ESTUARY, NEW BEDFORD, MA 02740",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 40625.0,
         "pct_no_health_ins_acs_09_13": 10.55,
         "pct_poc": 43.96
@@ -13264,6 +13246,24 @@ var dataset = {
         "coordinates": [
           -70.5201518,
           41.6506308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 810100,
+        "address": "10 WATER ST, PALMER, MA 01069",
+        "site_score": 38.66,
+        "med_hhd_inc_bg_acs_09_13": 41111.0,
+        "pct_no_health_ins_acs_09_13": 1.92,
+        "pct_poc": 5.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3290698,
+          42.1546281
         ]
       }
     },
@@ -13470,7 +13470,7 @@ var dataset = {
       "properties": {
         "tract": 2500,
         "address": "671 NORTH SHORE DRIVE, BENTON HARBOR, MI 49022",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 29602.0,
         "pct_no_health_ins_acs_09_13": 9.78,
         "pct_poc": 44.03
@@ -13666,18 +13666,54 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 12401,
-        "address": "8359 E FARRAND RD, OTISVILLE, MI 48463",
-        "site_score": 38.64,
-        "med_hhd_inc_bg_acs_09_13": 68333.0,
-        "pct_no_health_ins_acs_09_13": 10.0,
-        "pct_poc": 3.66
+        "tract": 11001,
+        "address": "1247 BORDEN AVE SE, LEEDS, AL 35094",
+        "site_score": 42.86,
+        "med_hhd_inc_bg_acs_09_13": 31635.0,
+        "pct_no_health_ins_acs_09_13": 16.93,
+        "pct_poc": 13.280000000000001
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.5601552,
-          43.1947052
+          -86.5337842,
+          33.5386515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 2502,
+        "address": "NTU RD-539 SAN YSIDRO RD, CASMALIA, CA 93429",
+        "site_score": 30.0,
+        "med_hhd_inc_bg_acs_09_13": 33313.0,
+        "pct_no_health_ins_acs_09_13": 29.79,
+        "pct_poc": 85.60999999999999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5315174,
+          34.8375116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 3400,
+        "address": "500 AGARD RD, DALTON TOWNSHIP, MI 49445",
+        "site_score": 53.41,
+        "med_hhd_inc_bg_acs_09_13": 39024.0,
+        "pct_no_health_ins_acs_09_13": 9.48,
+        "pct_poc": 5.05
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2529299,
+          43.3032763
         ]
       }
     },
@@ -13792,6 +13828,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 12401,
+        "address": "8359 E FARRAND RD, OTISVILLE, MI 48463",
+        "site_score": 38.64,
+        "med_hhd_inc_bg_acs_09_13": 68333.0,
+        "pct_no_health_ins_acs_09_13": 10.0,
+        "pct_poc": 3.66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5601552,
+          43.1947052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 225500,
         "address": "3160 23 MILE RD, UTICA, MI 48316",
         "site_score": 49.09,
@@ -13866,7 +13920,7 @@ var dataset = {
       "properties": {
         "tract": 200,
         "address": "585 EAST JACKSON ROAD, ST. LOUIS, MI 48880",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 63500.0,
         "pct_no_health_ins_acs_09_13": 9.12,
         "pct_poc": 4.470000000000001
@@ -13894,42 +13948,6 @@ var dataset = {
         "coordinates": [
           -85.6776623,
           43.0031454
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 200,
-        "address": "1000 AUSABLE RD, OSCODA, MI 48750",
-        "site_score": 37.29,
-        "med_hhd_inc_bg_acs_09_13": 39464.0,
-        "pct_no_health_ins_acs_09_13": 15.38,
-        "pct_poc": 6.28
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.3461231,
-          44.41068
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 131300,
-        "address": "1704 HIGHLAND RD, HIGHLAND, MI 48356",
-        "site_score": 49.54,
-        "med_hhd_inc_bg_acs_09_13": 54375.0,
-        "pct_no_health_ins_acs_09_13": 13.27,
-        "pct_poc": 3.5300000000000002
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.592057,
-          42.650124
         ]
       }
     },
@@ -13966,6 +13984,60 @@ var dataset = {
         "coordinates": [
           -90.0367512,
           32.6126381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 970700,
+        "address": "OFF ROCKWOOD POND ROAD, TROY, NH 03465",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 73365.0,
+        "pct_no_health_ins_acs_09_13": 14.09,
+        "pct_poc": 1.8800000000000001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.175633,
+          42.798907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 200,
+        "address": "1000 AUSABLE RD, OSCODA, MI 48750",
+        "site_score": 37.29,
+        "med_hhd_inc_bg_acs_09_13": 39464.0,
+        "pct_no_health_ins_acs_09_13": 15.38,
+        "pct_poc": 6.28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3461231,
+          44.41068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 131300,
+        "address": "1704 HIGHLAND RD, HIGHLAND, MI 48356",
+        "site_score": 49.54,
+        "med_hhd_inc_bg_acs_09_13": 54375.0,
+        "pct_no_health_ins_acs_09_13": 13.27,
+        "pct_poc": 3.5300000000000002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.592057,
+          42.650124
         ]
       }
     },
@@ -14044,6 +14116,60 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 950400,
+        "address": "EAST SIDE OF IRON COUNTY ROAD 138, ANNAPOLIS, MO 63620",
+        "site_score": 56.67,
+        "med_hhd_inc_bg_acs_09_13": 28750.0,
+        "pct_no_health_ins_acs_09_13": 24.06,
+        "pct_poc": 6.12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6976197,
+          37.3603272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 504601,
+        "address": "PLYMOUTH &amp; COLONY STS, MOUNTAIN VIEW, CA 94043",
+        "site_score": 33.62,
+        "med_hhd_inc_bg_acs_09_13": 71375.0,
+        "pct_no_health_ins_acs_09_13": 17.07,
+        "pct_poc": 45.769999999999996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0723816,
+          37.428434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 22100,
+        "address": "2251 ARMOUR ROAD, NORTH KANSAS CITY, MO 64116",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 21471.0,
+        "pct_no_health_ins_acs_09_13": 37.41,
+        "pct_poc": 34.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.555916,
+          39.145242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 12701,
         "address": "4900 WALMA AVENUE, KENTWOOD, MI 49512",
         "site_score": 35.39,
@@ -14092,42 +14218,6 @@ var dataset = {
         "coordinates": [
           -85.4226234,
           44.2566667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 950400,
-        "address": "EAST SIDE OF IRON COUNTY ROAD 138, ANNAPOLIS, MO 63620",
-        "site_score": 56.67,
-        "med_hhd_inc_bg_acs_09_13": 28750.0,
-        "pct_no_health_ins_acs_09_13": 24.06,
-        "pct_poc": 6.12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.6976197,
-          37.3603272
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 504601,
-        "address": "PLYMOUTH &amp; COLONY STS, MOUNTAIN VIEW, CA 94043",
-        "site_score": 33.62,
-        "med_hhd_inc_bg_acs_09_13": 71375.0,
-        "pct_no_health_ins_acs_09_13": 17.07,
-        "pct_poc": 45.769999999999996
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.0723816,
-          37.428434
         ]
       }
     },
@@ -14188,42 +14278,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 1802,
-        "address": "2800 E CORK ST, KALAMAZOO, MI 49001",
-        "site_score": 37.93,
-        "med_hhd_inc_bg_acs_09_13": 51944.0,
-        "pct_no_health_ins_acs_09_13": 11.06,
-        "pct_poc": 13.519999999999998
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.54295,
-          42.2594128
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 22100,
-        "address": "2251 ARMOUR ROAD, NORTH KANSAS CITY, MO 64116",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 21471.0,
-        "pct_no_health_ins_acs_09_13": 37.41,
-        "pct_poc": 34.25
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.555916,
-          39.145242
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 360200,
         "address": "MALDEN INDUSTRIAL PARK, MALDEN, MO 63863",
         "site_score": 28.59,
@@ -14236,6 +14290,24 @@ var dataset = {
         "coordinates": [
           -89.992226,
           36.600555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 1802,
+        "address": "2800 E CORK ST, KALAMAZOO, MI 49001",
+        "site_score": 37.93,
+        "med_hhd_inc_bg_acs_09_13": 51944.0,
+        "pct_no_health_ins_acs_09_13": 11.06,
+        "pct_poc": 13.519999999999998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.54295,
+          42.2594128
         ]
       }
     },
@@ -14332,78 +14404,6 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 11001,
-        "address": "1247 BORDEN AVE SE, LEEDS, AL 35094",
-        "site_score": 42.86,
-        "med_hhd_inc_bg_acs_09_13": 31635.0,
-        "pct_no_health_ins_acs_09_13": 16.93,
-        "pct_poc": 13.280000000000001
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.5337842,
-          33.5386515
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 2502,
-        "address": "NTU RD-539 SAN YSIDRO RD, CASMALIA, CA 93429",
-        "site_score": 30.0,
-        "med_hhd_inc_bg_acs_09_13": 33313.0,
-        "pct_no_health_ins_acs_09_13": 29.79,
-        "pct_poc": 85.60999999999999
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.5315174,
-          34.8375116
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 3400,
-        "address": "500 AGARD RD, DALTON TOWNSHIP, MI 49445",
-        "site_score": 53.41,
-        "med_hhd_inc_bg_acs_09_13": 39024.0,
-        "pct_no_health_ins_acs_09_13": 9.48,
-        "pct_poc": 5.05
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.2529299,
-          43.3032763
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 951100,
-        "address": "SECTION 25 26 35 &amp; 36 T37N R4E, DESLOGE, MO 63601",
-        "site_score": 84.91,
-        "med_hhd_inc_bg_acs_09_13": 33261.0,
-        "pct_no_health_ins_acs_09_13": 20.04,
-        "pct_poc": 2.33
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.5273473,
-          37.8708845
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "tract": 700,
         "address": "EAST LAKE SIDE RD STROMAC TWP, FILER CITY, MI 49634",
         "site_score": 51.91,
@@ -14494,18 +14494,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 4409,
-        "address": "7140 N HARRISON, FRESNO, CA 93650",
-        "site_score": 51.13,
-        "med_hhd_inc_bg_acs_09_13": 51736.0,
-        "pct_no_health_ins_acs_09_13": 23.37,
-        "pct_poc": 52.16
+        "tract": 502400,
+        "address": "CEDAR SWAMP RD, BRIDGEPORT, NJ 08014",
+        "site_score": 60.73,
+        "med_hhd_inc_bg_acs_09_13": 67159.0,
+        "pct_no_health_ins_acs_09_13": 5.44,
+        "pct_poc": 4.82
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.8104233,
-          36.8422612
+          -75.3217975,
+          39.8048787
         ]
       }
     },
@@ -14692,6 +14692,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 951100,
+        "address": "SECTION 25 26 35 &amp; 36 T37N R4E, DESLOGE, MO 63601",
+        "site_score": 84.91,
+        "med_hhd_inc_bg_acs_09_13": 33261.0,
+        "pct_no_health_ins_acs_09_13": 20.04,
+        "pct_poc": 2.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5273473,
+          37.8708845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 4700,
         "address": "201 SOUTH MARSHALL STREET, ROGERSVILLE, MO 65742",
         "site_score": 50.0,
@@ -14722,24 +14740,6 @@ var dataset = {
         "coordinates": [
           -94.5338326,
           39.132019
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 217921,
-        "address": "NEAR ELLISVILLE, ELLISVILLE, MO 63011",
-        "site_score": NaN,
-        "med_hhd_inc_bg_acs_09_13": 89286.0,
-        "pct_no_health_ins_acs_09_13": 5.16,
-        "pct_poc": 12.19
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.5870686,
-          38.5925532
         ]
       }
     },
@@ -14926,18 +14926,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 87000,
-        "address": "Off Route 11 between Paulson Road to the NW, FARMINGTON, NH 03835",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 81563.0,
-        "pct_no_health_ins_acs_09_13": 9.12,
-        "pct_poc": 1.9100000000000001
+        "tract": 217921,
+        "address": "NEAR ELLISVILLE, ELLISVILLE, MO 63011",
+        "site_score": 0.0,
+        "med_hhd_inc_bg_acs_09_13": 89286.0,
+        "pct_no_health_ins_acs_09_13": 5.16,
+        "pct_poc": 12.19
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0735476,
-          43.3526526
+          -90.5870686,
+          38.5925532
         ]
       }
     },
@@ -15214,6 +15214,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 87000,
+        "address": "Off Route 11 between Paulson Road to the NW, FARMINGTON, NH 03835",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 81563.0,
+        "pct_no_health_ins_acs_09_13": 9.12,
+        "pct_poc": 1.9100000000000001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0735476,
+          43.3526526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 81600,
         "address": "TOLEND RD, DOVER, NH 03820",
         "site_score": 36.98,
@@ -15226,42 +15244,6 @@ var dataset = {
         "coordinates": [
           -70.9282191,
           43.2038424
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 16201,
-        "address": "21 ELM ST., MILFORD, NH 03055",
-        "site_score": 35.39,
-        "med_hhd_inc_bg_acs_09_13": 47826.0,
-        "pct_no_health_ins_acs_09_13": 8.6,
-        "pct_poc": 6.859999999999999
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.6528051,
-          42.8353287
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 955400,
-        "address": "MILL ST-RTE 113, CONWAY, NH 03818",
-        "site_score": 38.45,
-        "med_hhd_inc_bg_acs_09_13": 43125.0,
-        "pct_no_health_ins_acs_09_13": 27.23,
-        "pct_poc": 2.12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.0573304,
-          43.991939
         ]
       }
     },
@@ -15376,6 +15358,42 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 16201,
+        "address": "21 ELM ST., MILFORD, NH 03055",
+        "site_score": 35.39,
+        "med_hhd_inc_bg_acs_09_13": 47826.0,
+        "pct_no_health_ins_acs_09_13": 8.6,
+        "pct_poc": 6.859999999999999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6528051,
+          42.8353287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 955400,
+        "address": "MILL ST-RTE 113, CONWAY, NH 03818",
+        "site_score": 38.45,
+        "med_hhd_inc_bg_acs_09_13": 43125.0,
+        "pct_no_health_ins_acs_09_13": 27.23,
+        "pct_poc": 2.12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0573304,
+          43.991939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 85000,
         "address": "TIBBETTS RD., BARRINGTON, NH 03825",
         "site_score": 41.09,
@@ -15388,42 +15406,6 @@ var dataset = {
         "coordinates": [
           -71.0321274,
           43.1773704
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 3801,
-        "address": "RTE 102, LONDONDERRY, NH 03053",
-        "site_score": 43.24,
-        "med_hhd_inc_bg_acs_09_13": 109018.0,
-        "pct_no_health_ins_acs_09_13": 5.65,
-        "pct_poc": 5.12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.369368,
-          42.8420324
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 970700,
-        "address": "OFF ROCKWOOD POND ROAD, TROY, NH 03465",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 73365.0,
-        "pct_no_health_ins_acs_09_13": 14.09,
-        "pct_poc": 1.8800000000000001
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.175633,
-          42.798907
         ]
       }
     },
@@ -15504,7 +15486,7 @@ var dataset = {
       "properties": {
         "tract": 22200,
         "address": "LOUISIANA &amp; WALKER STREET, ST. LOUIS PARK, MN 55426",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 87841.0,
         "pct_no_health_ins_acs_09_13": 2.0,
         "pct_poc": 11.059999999999999
@@ -16422,7 +16404,7 @@ var dataset = {
       "properties": {
         "tract": 200,
         "address": "512 CALIFORNIA AVENUE, LIBBY, MT 59923",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 21661.0,
         "pct_no_health_ins_acs_09_13": 36.0,
         "pct_poc": 4.31
@@ -16708,18 +16690,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 502400,
-        "address": "CEDAR SWAMP RD, BRIDGEPORT, NJ 08014",
-        "site_score": 60.73,
-        "med_hhd_inc_bg_acs_09_13": 67159.0,
-        "pct_no_health_ins_acs_09_13": 5.44,
-        "pct_poc": 4.82
+        "tract": 3801,
+        "address": "RTE 102, LONDONDERRY, NH 03053",
+        "site_score": 43.24,
+        "med_hhd_inc_bg_acs_09_13": 109018.0,
+        "pct_no_health_ins_acs_09_13": 5.65,
+        "pct_poc": 5.12
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.3217975,
-          39.8048787
+          -71.369368,
+          42.8420324
         ]
       }
     },
@@ -16837,7 +16819,7 @@ var dataset = {
         "tract": 14102,
         "address": "FORMER ARMY BASE FORT ORD, MARINA, CA 93933",
         "site_score": 42.24,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 51.61,
         "pct_poc": 51.28000000000001
       },
@@ -17178,7 +17160,7 @@ var dataset = {
       "properties": {
         "tract": 11401,
         "address": "GILSON RD, NASHUA, NH 03062",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 114878.0,
         "pct_no_health_ins_acs_09_13": 3.7800000000000002,
         "pct_poc": 23.07
@@ -17446,18 +17428,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 40600,
-        "address": "527 East Chestnut Avenue, VINELAND, NJ 08360",
-        "site_score": 65.29,
-        "med_hhd_inc_bg_acs_09_13": 19839.0,
-        "pct_no_health_ins_acs_09_13": 12.68,
-        "pct_poc": 85.43
+        "tract": 4409,
+        "address": "7140 N HARRISON, FRESNO, CA 93650",
+        "site_score": 51.13,
+        "med_hhd_inc_bg_acs_09_13": 51736.0,
+        "pct_no_health_ins_acs_09_13": 23.37,
+        "pct_poc": 52.16
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.0260838,
-          39.4784365
+          -119.8104233,
+          36.8422612
         ]
       }
     },
@@ -17701,33 +17683,15 @@ var dataset = {
         "tract": 12700,
         "address": "1401 HARRISON TURNPIKE, KEARNY, NJ 07032",
         "site_score": 30.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -74.1354652,
           40.7495289
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 41000,
-        "address": "1888 SOUTH DELSEA DRIVE, VINELAND, NJ 08360",
-        "site_score": 30.3,
-        "med_hhd_inc_bg_acs_09_13": 55750.0,
-        "pct_no_health_ins_acs_09_13": 16.94,
-        "pct_poc": 47.06
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.0438594,
-          39.4594202
         ]
       }
     },
@@ -17860,6 +17824,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 40600,
+        "address": "527 East Chestnut Avenue, VINELAND, NJ 08360",
+        "site_score": 65.29,
+        "med_hhd_inc_bg_acs_09_13": 19839.0,
+        "pct_no_health_ins_acs_09_13": 12.68,
+        "pct_poc": 85.43
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0260838,
+          39.4784365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 501703,
         "address": "SIX LOCATIONS NEAR MARSHALL MILL ROAD, FRANKLIN TOWNSHIP, NJ 08322",
         "site_score": 40.67,
@@ -17916,7 +17898,7 @@ var dataset = {
       "properties": {
         "tract": 21600,
         "address": "WILLARD STREET AND PIERRE AVENUE, GARFIELD, NJ 07026",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 55139.0,
         "pct_no_health_ins_acs_09_13": 24.86,
         "pct_poc": 54.56
@@ -18094,6 +18076,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 41000,
+        "address": "1888 SOUTH DELSEA DRIVE, VINELAND, NJ 08360",
+        "site_score": 30.3,
+        "med_hhd_inc_bg_acs_09_13": 55750.0,
+        "pct_no_health_ins_acs_09_13": 16.94,
+        "pct_poc": 47.06
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0438594,
+          39.4594202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 809501,
         "address": "ORCHARD RD, MORGANVILLE, NJ 07751",
         "site_score": 33.87,
@@ -18214,42 +18214,6 @@ var dataset = {
         "coordinates": [
           -121.9808468,
           37.3757893
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 982111,
-        "address": "WRIGHTSTOWN-COOKSTOWN ROAD, WRIGHTSTOWN, NJ 08641",
-        "site_score": 47.2,
-        "med_hhd_inc_bg_acs_09_13": 51083.0,
-        "pct_no_health_ins_acs_09_13": 0.21,
-        "pct_poc": 30.490000000000002
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.5899319,
-          40.0382626
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 809902,
-        "address": "TYLER LANE &amp; TEXAS RD, COLTS NECK, NJ 07722",
-        "site_score": 29.65,
-        "med_hhd_inc_bg_acs_09_13": 106815.0,
-        "pct_no_health_ins_acs_09_13": 7.96,
-        "pct_poc": 12.99
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.1723652,
-          40.2876108
         ]
       }
     },
@@ -18472,6 +18436,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 982111,
+        "address": "WRIGHTSTOWN-COOKSTOWN ROAD, WRIGHTSTOWN, NJ 08641",
+        "site_score": 47.2,
+        "med_hhd_inc_bg_acs_09_13": 51083.0,
+        "pct_no_health_ins_acs_09_13": 0.21,
+        "pct_poc": 30.490000000000002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5899319,
+          40.0382626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 372900,
         "address": "WILDCAT &amp; MAPLE ROADS, FRANKLIN BOROUGH, NJ 07416",
         "site_score": 48.95,
@@ -18598,6 +18580,24 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 809902,
+        "address": "TYLER LANE &amp; TEXAS RD, COLTS NECK, NJ 07722",
+        "site_score": 29.65,
+        "med_hhd_inc_bg_acs_09_13": 106815.0,
+        "pct_no_health_ins_acs_09_13": 7.96,
+        "pct_poc": 12.99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1723652,
+          40.2876108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 20100,
         "address": "PENNS GROVE-PEDRICKTOWN ROAD, PEDRICKTOWN (OLDMANS TOWN, NJ 08067",
         "site_score": 52.96,
@@ -18673,7 +18673,7 @@ var dataset = {
         "tract": 7400,
         "address": "ONE AVENUE L, NEWARK, NJ 07105",
         "site_score": 47.99,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 90.08000000000001
       },
@@ -18726,7 +18726,7 @@ var dataset = {
       "properties": {
         "tract": 11900,
         "address": "MILL ROAD, PLEASANTVILLE, NJ 08232",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 18628.0,
         "pct_no_health_ins_acs_09_13": 31.01,
         "pct_poc": 81.04
@@ -18778,54 +18778,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 122300,
-        "address": "82 MILBAR BOULEVARD, EAST FARMINGDALE, NY 11735",
-        "site_score": 54.27,
-        "med_hhd_inc_bg_acs_09_13": 98355.0,
-        "pct_no_health_ins_acs_09_13": 6.76,
-        "pct_poc": 26.430000000000003
+        "tract": 1414,
+        "address": "FOOT OF WOODBROOK ROAD (SOUTH END), SOUTH PLAINFIELD, NJ 08820",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 118705.0,
+        "pct_no_health_ins_acs_09_13": 3.7199999999999998,
+        "pct_poc": 56.52
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.4185138,
-          40.7496066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 520100,
-        "address": "501 WINDING ROAD, OLD BETHPAGE, NY 11804",
-        "site_score": 31.62,
-        "med_hhd_inc_bg_acs_09_13": 74183.0,
-        "pct_no_health_ins_acs_09_13": 4.07,
-        "pct_poc": 11.440000000000001
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.4487055,
-          40.7501298
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 30502,
-        "address": "22125 SOUTHWEST ROCK CREEK ROAD, SHERIDAN, OR 97378",
-        "site_score": 71.78,
-        "med_hhd_inc_bg_acs_09_13": 40071.0,
-        "pct_no_health_ins_acs_09_13": 20.12,
-        "pct_poc": 17.219999999999995
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.428908,
-          45.097451
+          -74.3855715,
+          40.567145
         ]
       }
     },
@@ -18940,18 +18904,36 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 303201,
-        "address": "150 FULTON AVENUE, GARDEN CITY PARK, NY 11040",
-        "site_score": 33.08,
-        "med_hhd_inc_bg_acs_09_13": 37159.0,
-        "pct_no_health_ins_acs_09_13": 9.16,
-        "pct_poc": 86.39
+        "tract": 122300,
+        "address": "82 MILBAR BOULEVARD, EAST FARMINGDALE, NY 11735",
+        "site_score": 54.27,
+        "med_hhd_inc_bg_acs_09_13": 98355.0,
+        "pct_no_health_ins_acs_09_13": 6.76,
+        "pct_poc": 26.430000000000003
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.6581119,
-          40.7370449
+          -73.4185138,
+          40.7496066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 520100,
+        "address": "501 WINDING ROAD, OLD BETHPAGE, NY 11804",
+        "site_score": 31.62,
+        "med_hhd_inc_bg_acs_09_13": 74183.0,
+        "pct_no_health_ins_acs_09_13": 4.07,
+        "pct_poc": 11.440000000000001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4487055,
+          40.7501298
         ]
       }
     },
@@ -18970,24 +18952,6 @@ var dataset = {
         "coordinates": [
           -123.0632932,
           44.6558276
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 951200,
-        "address": "I-84 &amp; EXIT 178, HERMISTON, OR 97844",
-        "site_score": 31.31,
-        "med_hhd_inc_bg_acs_09_13": 56023.0,
-        "pct_no_health_ins_acs_09_13": 13.67,
-        "pct_poc": 50.27
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.2894604,
-          45.8404101
         ]
       }
     },
@@ -19102,36 +19066,36 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 951000,
-        "address": "S BROOKLYN AVE, WELLSVILLE, NY 14895",
-        "site_score": 53.9,
-        "med_hhd_inc_bg_acs_09_13": 25909.0,
-        "pct_no_health_ins_acs_09_13": 7.01,
-        "pct_poc": 1.5000000000000002
+        "tract": 303201,
+        "address": "150 FULTON AVENUE, GARDEN CITY PARK, NY 11040",
+        "site_score": 33.08,
+        "med_hhd_inc_bg_acs_09_13": 37159.0,
+        "pct_no_health_ins_acs_09_13": 9.16,
+        "pct_poc": 86.39
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.945381,
-          42.108783
+          -73.6581119,
+          40.7370449
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "tract": 135004,
-        "address": "ST. JAMES, NISSEQUOGUE &amp; HEAD OF HARBOR, SMITHTOWN, NY 11780",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 164044.0,
-        "pct_no_health_ins_acs_09_13": 2.37,
-        "pct_poc": 9.14
+        "tract": 951200,
+        "address": "I-84 &amp; EXIT 178, HERMISTON, OR 97844",
+        "site_score": 31.31,
+        "med_hhd_inc_bg_acs_09_13": 56023.0,
+        "pct_no_health_ins_acs_09_13": 13.67,
+        "pct_poc": 50.27
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.187997,
-          40.904876
+          -119.2894604,
+          45.8404101
         ]
       }
     },
@@ -19231,9 +19195,9 @@ var dataset = {
         "tract": 12700,
         "address": "1015-35 BELLEVILLE TURNPIKE, KEARNY, NJ 07032",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
@@ -19267,7 +19231,7 @@ var dataset = {
         "tract": 12700,
         "address": "77 JACOBUS AVE, SOUTH KEARNY, NJ 07032",
         "site_score": 43.43,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 87.89000000000001
       },
@@ -19282,18 +19246,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 3305,
-        "address": "REILLY RD, FAYETTEVILLE, NC 28303",
-        "site_score": 34.09,
-        "med_hhd_inc_bg_acs_09_13": 70257.0,
-        "pct_no_health_ins_acs_09_13": 11.63,
-        "pct_poc": 58.61999999999999
+        "tract": 951000,
+        "address": "S BROOKLYN AVE, WELLSVILLE, NY 14895",
+        "site_score": 53.9,
+        "med_hhd_inc_bg_acs_09_13": 25909.0,
+        "pct_no_health_ins_acs_09_13": 7.01,
+        "pct_poc": 1.5000000000000002
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.010881,
-          35.0937616
+          -77.945381,
+          42.108783
         ]
       }
     },
@@ -19464,7 +19428,7 @@ var dataset = {
       "properties": {
         "tract": 4802,
         "address": "660 FRELINGHUYSEN AVE, NEWARK, NJ 07114",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 11607.0,
         "pct_no_health_ins_acs_09_13": 37.83,
         "pct_poc": 93.91999999999999
@@ -19510,24 +19474,6 @@ var dataset = {
         "coordinates": [
           -74.8013507,
           39.1202633
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 1414,
-        "address": "FOOT OF WOODBROOK ROAD (SOUTH END), SOUTH PLAINFIELD, NJ 08820",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 118705.0,
-        "pct_no_health_ins_acs_09_13": 3.7199999999999998,
-        "pct_poc": 56.52
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.3855715,
-          40.567145
         ]
       }
     },
@@ -19732,18 +19678,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 200,
-        "address": "HWY 301 N EASTERN BLVD, FAYETTEVILLE, NC 28301",
-        "site_score": 33.76,
-        "med_hhd_inc_bg_acs_09_13": 10625.0,
-        "pct_no_health_ins_acs_09_13": 28.57,
-        "pct_poc": 85.58000000000001
+        "tract": 135004,
+        "address": "ST. JAMES, NISSEQUOGUE &amp; HEAD OF HARBOR, SMITHTOWN, NY 11780",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 164044.0,
+        "pct_no_health_ins_acs_09_13": 2.37,
+        "pct_poc": 9.14
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.864059,
-          35.051258
+          -73.187997,
+          40.904876
         ]
       }
     },
@@ -19896,7 +19842,7 @@ var dataset = {
       "properties": {
         "tract": 4001,
         "address": "BROADWAY &amp; WOODWARD, ALBUQUERQUE, NM 87105",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 26615.0,
         "pct_no_health_ins_acs_09_13": 43.3,
         "pct_poc": 86.99999999999999
@@ -19912,18 +19858,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 951602,
-        "address": "HWY 198, SHELBY, NC 28150",
-        "site_score": 48.98,
-        "med_hhd_inc_bg_acs_09_13": 34000.0,
-        "pct_no_health_ins_acs_09_13": 5.21,
-        "pct_poc": 28.41
+        "tract": 600,
+        "address": "NC HWY 24 &amp; US HWY 16, ONSLOW COUNTY, NC 28542",
+        "site_score": 33.13,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 34.99000000000001
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.5288902,
-          35.2240559
+          -77.34,
+          34.67
         ]
       }
     },
@@ -20041,7 +19987,7 @@ var dataset = {
         "tract": 158710,
         "address": "53 BELL AVE, UPTON, NY 11961",
         "site_score": 39.92,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 94.44
       },
@@ -20328,7 +20274,7 @@ var dataset = {
       "properties": {
         "tract": 22602,
         "address": "LISA LANE, CARRIE DRIVE AND T. MARK DRV., NIAGARA FALLS, NY 14301",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 41031.0,
         "pct_no_health_ins_acs_09_13": 9.8,
         "pct_poc": 12.069999999999999
@@ -20452,36 +20398,54 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 970800,
-        "address": "COUNTY RD 1103, CORDOVA, NC 28330",
-        "site_score": 47.1,
-        "med_hhd_inc_bg_acs_09_13": 24531.0,
-        "pct_no_health_ins_acs_09_13": 18.95,
-        "pct_poc": 16.240000000000002
+        "tract": 3305,
+        "address": "REILLY RD, FAYETTEVILLE, NC 28303",
+        "site_score": 34.09,
+        "med_hhd_inc_bg_acs_09_13": 70257.0,
+        "pct_no_health_ins_acs_09_13": 11.63,
+        "pct_poc": 58.61999999999999
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.8209696,
-          34.9048565
+          -79.010881,
+          35.0937616
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "tract": 970200,
-        "address": "TIE PLANT RD-IN CITY LIMITS, THE DALLES, OR 97058",
-        "site_score": 37.93,
-        "med_hhd_inc_bg_acs_09_13": 32917.0,
-        "pct_no_health_ins_acs_09_13": 19.05,
-        "pct_poc": 21.1
+        "tract": 200,
+        "address": "HWY 301 N EASTERN BLVD, FAYETTEVILLE, NC 28301",
+        "site_score": 33.76,
+        "med_hhd_inc_bg_acs_09_13": 10625.0,
+        "pct_no_health_ins_acs_09_13": 28.57,
+        "pct_poc": 85.58000000000001
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.1786823,
-          45.5945645
+          -78.864059,
+          35.051258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 951602,
+        "address": "HWY 198, SHELBY, NC 28150",
+        "site_score": 48.98,
+        "med_hhd_inc_bg_acs_09_13": 34000.0,
+        "pct_no_health_ins_acs_09_13": 5.21,
+        "pct_poc": 28.41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5288902,
+          35.2240559
         ]
       }
     },
@@ -20545,8 +20509,8 @@ var dataset = {
         "tract": 980100,
         "address": "GRIFFISS AIR FORCE BASE, ROME, NY 13440",
         "site_score": 34.2,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 0.0
       },
       "geometry": {
@@ -20668,54 +20632,36 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 61205,
-        "address": "1268 EUFOLA ROAD, STATESVILLE, NC 28677",
-        "site_score": 30.03,
-        "med_hhd_inc_bg_acs_09_13": 47316.0,
-        "pct_no_health_ins_acs_09_13": 9.41,
-        "pct_poc": 9.32
+        "tract": 970800,
+        "address": "COUNTY RD 1103, CORDOVA, NC 28330",
+        "site_score": 47.1,
+        "med_hhd_inc_bg_acs_09_13": 24531.0,
+        "pct_no_health_ins_acs_09_13": 18.95,
+        "pct_poc": 16.240000000000002
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.9683307,
-          35.7202325
+          -79.8209696,
+          34.9048565
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "tract": 5700,
-        "address": "13440 Highway 43 North, AXIS, AL 36505",
-        "site_score": 32.34,
-        "med_hhd_inc_bg_acs_09_13": 33405.0,
-        "pct_no_health_ins_acs_09_13": 10.81,
-        "pct_poc": 22.820000000000004
+        "tract": 970200,
+        "address": "TIE PLANT RD-IN CITY LIMITS, THE DALLES, OR 97058",
+        "site_score": 37.93,
+        "med_hhd_inc_bg_acs_09_13": 32917.0,
+        "pct_no_health_ins_acs_09_13": 19.05,
+        "pct_poc": 21.1
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.0269003,
-          30.9739275
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 801,
-        "address": "1214 W WASHINGTON ST, STOCKTON, CA 95203",
-        "site_score": 74.86,
-        "med_hhd_inc_bg_acs_09_13": 43000.0,
-        "pct_no_health_ins_acs_09_13": 24.32,
-        "pct_poc": 94.23
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.309832,
-          37.948352
+          -121.1786823,
+          45.5945645
         ]
       }
     },
@@ -20725,15 +20671,15 @@ var dataset = {
         "tract": 0,
         "address": "NaN",
         "site_score": 54.66,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          NaN,
-          NaN
+          0.0,
+          0.0
         ]
       }
     },
@@ -20851,8 +20797,8 @@ var dataset = {
         "tract": 451101,
         "address": "7000 EAST AVE, LIVERMORE, CA 94550",
         "site_score": 42.24,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 0.0
       },
       "geometry": {
@@ -20884,11 +20830,65 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
+        "tract": 61205,
+        "address": "1268 EUFOLA ROAD, STATESVILLE, NC 28677",
+        "site_score": 30.03,
+        "med_hhd_inc_bg_acs_09_13": 47316.0,
+        "pct_no_health_ins_acs_09_13": 9.41,
+        "pct_poc": 9.32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9683307,
+          35.7202325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 5700,
+        "address": "13440 Highway 43 North, AXIS, AL 36505",
+        "site_score": 32.34,
+        "med_hhd_inc_bg_acs_09_13": 33405.0,
+        "pct_no_health_ins_acs_09_13": 10.81,
+        "pct_poc": 22.820000000000004
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0269003,
+          30.9739275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 801,
+        "address": "1214 W WASHINGTON ST, STOCKTON, CA 95203",
+        "site_score": 74.86,
+        "med_hhd_inc_bg_acs_09_13": 43000.0,
+        "pct_no_health_ins_acs_09_13": 24.32,
+        "pct_poc": 94.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.309832,
+          37.948352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "tract": 980100,
         "address": "6852 MT. HERMAN ROAD, RALEIGH, NC 27614",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 100.0
       },
       "geometry": {
@@ -20896,60 +20896,6 @@ var dataset = {
         "coordinates": [
           -78.7720034,
           35.9008054
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 930100,
-        "address": "STATE RD. 1878, RIEGELWOOD, NC 28456",
-        "site_score": 48.03,
-        "med_hhd_inc_bg_acs_09_13": 40875.0,
-        "pct_no_health_ins_acs_09_13": 17.52,
-        "pct_poc": 25.73
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.2094946,
-          34.3286532
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 205906,
-        "address": "2200 RENAISSANCE BOULEVARD, UPPER MERION TOWNSHIP, PA 19406",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 82212.0,
-        "pct_no_health_ins_acs_09_13": 12.52,
-        "pct_poc": 18.090000000000003
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.3374622,
-          40.0853742
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tract": 13402,
-        "address": "HUFF'S CHURCH ROAD &amp; BLACKHEAD HILL, HEREFORD TOWNSHIP, PA 18056",
-        "site_score": 29.66,
-        "med_hhd_inc_bg_acs_09_13": 64135.0,
-        "pct_no_health_ins_acs_09_13": 7.46,
-        "pct_poc": 1.79
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.6286323,
-          40.4486718
         ]
       }
     },
@@ -20976,7 +20922,7 @@ var dataset = {
       "properties": {
         "tract": 960600,
         "address": "INTERSECT OF RTES 242, 353, AND BAKER RD, LITTLE VALLEY, NY 14755",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 44224.0,
         "pct_no_health_ins_acs_09_13": 13.5,
         "pct_poc": 3.48
@@ -21139,8 +21085,8 @@ var dataset = {
         "tract": 44900,
         "address": "SOUTH END OF IVY HILL ROAD, BROOKLYN, QUEENS, NY 11222",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 5.88
       },
       "geometry": {
@@ -21172,18 +21118,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 7200,
-        "address": "BUNKER HILL GROUND WATER BASIN, SAN BERNARDINO, CA 92408",
-        "site_score": 35.57,
-        "med_hhd_inc_bg_acs_09_13": 26392.0,
-        "pct_no_health_ins_acs_09_13": 26.81,
-        "pct_poc": 89.55999999999999
+        "tract": 930100,
+        "address": "STATE RD. 1878, RIEGELWOOD, NC 28456",
+        "site_score": 48.03,
+        "med_hhd_inc_bg_acs_09_13": 40875.0,
+        "pct_no_health_ins_acs_09_13": 17.52,
+        "pct_poc": 25.73
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.2617329,
-          34.0868517
+          -78.2094946,
+          34.3286532
         ]
       }
     },
@@ -21318,7 +21264,7 @@ var dataset = {
       "properties": {
         "tract": 21601,
         "address": "55 SENECA ST, OSWEGO, NY 13126",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 49167.0,
         "pct_no_health_ins_acs_09_13": 13.1,
         "pct_poc": 8.21
@@ -21388,18 +21334,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 961100,
-        "address": "PO BOX 708, MAITLAND, PA 17044",
-        "site_score": 40.37,
-        "med_hhd_inc_bg_acs_09_13": 36667.0,
-        "pct_no_health_ins_acs_09_13": 5.09,
-        "pct_poc": 2.2800000000000002
+        "tract": 205906,
+        "address": "2200 RENAISSANCE BOULEVARD, UPPER MERION TOWNSHIP, PA 19406",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 82212.0,
+        "pct_no_health_ins_acs_09_13": 12.52,
+        "pct_poc": 18.090000000000003
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.502771,
-          40.6306281
+          -75.3374622,
+          40.0853742
         ]
       }
     },
@@ -21946,18 +21892,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 600,
-        "address": "NC HWY 24 &amp; US HWY 16, ONSLOW COUNTY, NC 28542",
-        "site_score": 33.13,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": 0.0,
-        "pct_poc": 34.99000000000001
+        "tract": 1700,
+        "address": "1600 WEBSTER ST, DAYTON, OH 45404",
+        "site_score": 50.0,
+        "med_hhd_inc_bg_acs_09_13": 20911.0,
+        "pct_no_health_ins_acs_09_13": 33.16,
+        "pct_poc": 17.689999999999998
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.34,
-          34.67
+          -84.1814745,
+          39.7852103
         ]
       }
     },
@@ -22216,18 +22162,36 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 1700,
-        "address": "1600 WEBSTER ST, DAYTON, OH 45404",
+        "tract": 32201,
+        "address": "1415 GRANDIN ROAD, KINGS MILLS, OH 45039",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 20911.0,
-        "pct_no_health_ins_acs_09_13": 33.16,
-        "pct_poc": 17.689999999999998
+        "med_hhd_inc_bg_acs_09_13": 80701.0,
+        "pct_no_health_ins_acs_09_13": 3.13,
+        "pct_poc": 5.68
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.1814745,
-          39.7852103
+          -84.2423274,
+          39.3506649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 13402,
+        "address": "HUFF'S CHURCH ROAD &amp; BLACKHEAD HILL, HEREFORD TOWNSHIP, PA 18056",
+        "site_score": 29.66,
+        "med_hhd_inc_bg_acs_09_13": 64135.0,
+        "pct_no_health_ins_acs_09_13": 7.46,
+        "pct_poc": 1.79
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6286323,
+          40.4486718
         ]
       }
     },
@@ -22488,7 +22452,7 @@ var dataset = {
       "properties": {
         "tract": 14600,
         "address": "500 FORD BLVD, HAMILTON, OH 45011",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 12885.0,
         "pct_no_health_ins_acs_09_13": 24.53,
         "pct_poc": 17.34
@@ -22594,18 +22558,36 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 32201,
-        "address": "1415 GRANDIN ROAD, KINGS MILLS, OH 45039",
-        "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": 80701.0,
-        "pct_no_health_ins_acs_09_13": 3.13,
-        "pct_poc": 5.68
+        "tract": 508704,
+        "address": "1165 E ARQUES AVE, SUNNYVALE, CA 94086",
+        "site_score": 35.57,
+        "med_hhd_inc_bg_acs_09_13": 77333.0,
+        "pct_no_health_ins_acs_09_13": 15.05,
+        "pct_poc": 66.46000000000001
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.2423274,
-          39.3506649
+          -121.9980238,
+          37.380948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 7200,
+        "address": "BUNKER HILL GROUND WATER BASIN, SAN BERNARDINO, CA 92408",
+        "site_score": 35.57,
+        "med_hhd_inc_bg_acs_09_13": 26392.0,
+        "pct_no_health_ins_acs_09_13": 26.81,
+        "pct_poc": 89.55999999999999
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2617329,
+          34.0868517
         ]
       }
     },
@@ -22774,18 +22756,18 @@ var dataset = {
     {
       "type": "Feature",
       "properties": {
-        "tract": 508704,
-        "address": "1165 E ARQUES AVE, SUNNYVALE, CA 94086",
-        "site_score": 35.57,
-        "med_hhd_inc_bg_acs_09_13": 77333.0,
-        "pct_no_health_ins_acs_09_13": 15.05,
-        "pct_poc": 66.46000000000001
+        "tract": 30502,
+        "address": "22125 SOUTHWEST ROCK CREEK ROAD, SHERIDAN, OR 97378",
+        "site_score": 71.78,
+        "med_hhd_inc_bg_acs_09_13": 40071.0,
+        "pct_no_health_ins_acs_09_13": 20.12,
+        "pct_poc": 17.219999999999995
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.9980238,
-          37.380948
+          -123.428908,
+          45.097451
         ]
       }
     },
@@ -23083,7 +23065,7 @@ var dataset = {
         "tract": 90302,
         "address": "2949 VALLEY PIKE, RIVERSIDE, OH 45404-2609",
         "site_score": 50.0,
-        "med_hhd_inc_bg_acs_09_13": NaN,
+        "med_hhd_inc_bg_acs_09_13": 0.0,
         "pct_no_health_ins_acs_09_13": 0.0,
         "pct_poc": 5.75
       },
@@ -23388,7 +23370,7 @@ var dataset = {
       "properties": {
         "tract": 971000,
         "address": "OLD FORT ROAD AND NORTH RIDGE DRIVE, KLAMATH FALLS, OR 97601",
-        "site_score": NaN,
+        "site_score": 0.0,
         "med_hhd_inc_bg_acs_09_13": 53636.0,
         "pct_no_health_ins_acs_09_13": 10.65,
         "pct_poc": 7.24
@@ -23614,6 +23596,24 @@ var dataset = {
         "coordinates": [
           -75.7080727,
           40.4846092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tract": 961100,
+        "address": "PO BOX 708, MAITLAND, PA 17044",
+        "site_score": 40.37,
+        "med_hhd_inc_bg_acs_09_13": 36667.0,
+        "pct_no_health_ins_acs_09_13": 5.09,
+        "pct_poc": 2.2800000000000002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.502771,
+          40.6306281
         ]
       }
     },
@@ -24019,9 +24019,9 @@ var dataset = {
         "tract": 980100,
         "address": "I-10/US 395 FORMER NORTON AFB, SAN BERNARDINO, CA 92408",
         "site_score": 39.65,
-        "med_hhd_inc_bg_acs_09_13": NaN,
-        "pct_no_health_ins_acs_09_13": NaN,
-        "pct_poc": NaN
+        "med_hhd_inc_bg_acs_09_13": 0.0,
+        "pct_no_health_ins_acs_09_13": 0.0,
+        "pct_poc": 0.0
       },
       "geometry": {
         "type": "Point",
