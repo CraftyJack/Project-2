@@ -6,7 +6,7 @@ CREATE TABLE superfund_data_table (
 	latitude						FLOAT,
 	longitude						FLOAT,
 	site_score						FLOAT,
-	text							TEXT,
+	site_text						TEXT,
 	State_name						VARCHAR,
 	County_name						VARCHAR,
 	Tract							INT,
