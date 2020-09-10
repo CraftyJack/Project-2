@@ -10,20 +10,30 @@ function buildMetadata(sample) {
       var vacant = 0;
       var owned = 0;
       var noplumb = 0;
+      var num = 0;
       
       resultArray.forEach(function(d) {
       totalpopulation = totalpopulation + d.tot_population_cen_2010; 
       rental = rental + d.renter_occp_hu_cen_2010;
       vacant = vacant + d.tot_vacant_units_cen_2010;
-      owned = owned + d.owner_occp_hu_cen_2010
-      noplumb = noplumb + d.no_plumb_acs_09_13
+      owned = owned + d.owner_occp_hu_cen_2010;
+      noplumb = noplumb + d.no_plumb_acs_09_13;
+      num = num + 1;
       });
+
+    PANEL.append("h6").text('Number of superfund sites in the state: ' + `${num}`);
+    PANEL.append("h6").text('Population of the superfund site counties: ' + `${totalpopulation}`);
+    PANEL.append("h6").text(`Number Rented: ` + `${rental}`);
+    PANEL.append("h6").text(`Number Vacant: ` + `${vacant}`);
+    PANEL.append("h6").text(`Number Owned: ` + `${owned}`);
+    PANEL.append("h6").text(`Number No Plumbing: ` + `${noplumb}`);
+  
       
-      PANEL.append("h6").text('Population: ' + `${totalpopulation}`);
-      PANEL.append("h6").text(`Number Rented: ` + `${rental}`);
-      PANEL.append("h6").text(`Number Vacant: ` + `${vacant}`);
-      PANEL.append("h6").text(`Number Owned: ` + `${owned}`);
-      PANEL.append("h6").text(`Number No Plumbing: ` + `${noplumb}`);
+    //   PANEL.append("h6").text('Population: ' + `${totalpopulation}`);
+    //   PANEL.append("h6").text(`Number Rented: ` + `${rental}`);
+    //   PANEL.append("h6").text(`Number Vacant: ` + `${vacant}`);
+    //   PANEL.append("h6").text(`Number Owned: ` + `${owned}`);
+    //   PANEL.append("h6").text(`Number No Plumbing: ` + `${noplumb}`);
     
     });
   }
@@ -44,10 +54,24 @@ function buildMetadata(sample) {
     mode: "markers",
     type: "scatter"
   }];
-  
+
   var layout1 = {
-    title: "Score vs Health"
+    title: "Site Score vs Number without Healthcare",
+    xaxis: {
+        title: {
+            text: "Site Score"
+        }
+    },
+    yaxis: {
+        title: {
+            text: "Number with no Healthcare"
+        }
+    }
   };
+  
+//   var layout1 = {
+//     title: "Score vs Health"
+//   };
   
   Plotly.newPlot("bar", trace1, layout1);
   
@@ -58,10 +82,24 @@ function buildMetadata(sample) {
     mode: "markers",
     type: "scatter",
   }];
-  
+
   var layout2 = {
-    title: "Score vs POC"
+    title: "Site Score vs Percent Person of Color",
+    xaxis: {
+        title: {
+            text: "Site Score"
+        }
+    },
+    yaxis: {
+        title: {
+            text: "Percent of Population that is POC"
+        }
+    }
   };
+  
+//   var layout2 = {
+//     title: "Score vs POC"
+//   };
   
   Plotly.newPlot("bar2", trace2, layout2);
   
@@ -72,10 +110,24 @@ function buildMetadata(sample) {
     mode: "markers",
     type: "scatter",
   }];
-  
+
   var layout3 = {
-    title: "Score vs Income"
+    title: "Site Score vs Median Household Income",
+    xaxis: {
+        title: {
+            text: "Site Score"
+        }
+    },
+    yaxis: {
+        title: {
+            text: "Median HH Income"
+        }
+    }
   };
+  
+//   var layout3 = {
+//     title: "Score vs Income"
+//   };
   
   
   Plotly.newPlot("bar3", trace3, layout3);
