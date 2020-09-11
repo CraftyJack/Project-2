@@ -67,7 +67,7 @@ var layout1 = {
   },
   yaxis: {
       title: {
-          text: "Number with no Healthcare"
+          text: "Percent with no Healthcare"
       }
   }
 };
