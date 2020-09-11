@@ -18,22 +18,51 @@
 </head>
 
 <body>
-  
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center" style="background-color:lightgreen !important">
         <h1>Federal Superfund Analysis</h1>
-        <p>Use the interactive map below to explore the dataset</p>
+        <p>Superfund sites are highly contaminated sites that have been identified for cleanup. These sites include manufacturing facilties, processing plants, landfills, and mining sites.</p>
+        <p>Use the interactive map below to explore the superfund site locations, or choose a state to see demographics and charts for the site locations in that state.</p>
       </div>
     </div>
     <div class="row">
-        <div class="col-md-5">
-          <div id="map"></div>
+      <div class="col-md-9">
+        <div id="map"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h5>State:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="col-md-5">
-            <div id="Dashboard">Dashboard</div>
+        <div class="panel panel-primary">
+          <div class="panel-heading" style="background-color: lightgreen;">
+            <h3 class="panel-title" style="color: black;">Demographic Summary for Affected Counties within Selected State</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
         </div>
+      </div>
     </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <h2 style="text-align: center; font-size: 60px;"><strong>Analysis for Selected State</strong></h2>
+  <hr>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-4">
+        <div id="bar2"></div>
+      </div>
+      <div class="col-md-4">
+        <div id="bar3"></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 <!-- Leaflet JS -->
@@ -46,4 +75,7 @@ crossorigin=""></script>
 <script type="text/javascript" src="Resources/config.js"></script>
 <!-- Our JS -->
 <script type="text/javascript" src="Resources/DashBoard.js"></script>
+<script src="Resources/app.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </html>
+
