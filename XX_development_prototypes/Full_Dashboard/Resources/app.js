@@ -31,14 +31,6 @@ function buildMetadata(sample) {
   PANEL.append("h6").text(`Number Vacant: ` + `${vacant}`);
   PANEL.append("h6").text(`Number Owned: ` + `${owned}`);
   PANEL.append("h6").text(`Number No Plumbing: ` + `${noplumb}`);
-
-    
-  //   PANEL.append("h6").text('Population: ' + `${totalpopulation}`);
-  //   PANEL.append("h6").text(`Number Rented: ` + `${rental}`);
-  //   PANEL.append("h6").text(`Number Vacant: ` + `${vacant}`);
-  //   PANEL.append("h6").text(`Number Owned: ` + `${owned}`);
-  //   PANEL.append("h6").text(`Number No Plumbing: ` + `${noplumb}`);
-  
   });
 }
 
@@ -67,7 +59,7 @@ var trace1 = [{
 }];
 
 var layout1 = {
-  title: "Site Score vs Number without Healthcare",
+  title: "Site Score vs Percent without Healthcare",
   xaxis: {
       title: {
           text: "Site Score"

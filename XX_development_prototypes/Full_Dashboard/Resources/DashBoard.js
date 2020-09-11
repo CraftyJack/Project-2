@@ -33,7 +33,7 @@ d3.csv(geoData, function(data) {
     //console.log(lat, lng)
 
     markers.addLayer(L.marker([lat, lng])
-    .bindPopup('<strong>Site Score: </strong>' + data[i].site_score));
+    .bindPopup('<strong>Site Score: </strong>' + data[i].site_score + '<br>' + '<strong> Address: </strong>' + data[i].address));
 
     
   }
