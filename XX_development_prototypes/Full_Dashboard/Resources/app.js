@@ -52,7 +52,14 @@ function buildMetadata(sample) {
     x: score,
     y: health,
     mode: "markers",
-    type: "scatter"
+    type: "scatter",
+    marker: {
+      color: "green",
+      line: {
+        color: 'black',
+        width: .5
+      }
+    }
   }];
 
   var layout1 = {
@@ -69,10 +76,6 @@ function buildMetadata(sample) {
     }
   };
   
-//   var layout1 = {
-//     title: "Score vs Health"
-//   };
-  
   Plotly.newPlot("bar", trace1, layout1);
   
   var trace2 = [{
@@ -81,6 +84,13 @@ function buildMetadata(sample) {
     y: POC,
     mode: "markers",
     type: "scatter",
+    marker: {
+      color: "green",
+      line: {
+        color: 'black',
+        width: .5
+      }
+    }
   }];
 
   var layout2 = {
@@ -97,9 +107,7 @@ function buildMetadata(sample) {
     }
   };
   
-//   var layout2 = {
-//     title: "Score vs POC"
-//   };
+
   
   Plotly.newPlot("bar2", trace2, layout2);
   
@@ -109,6 +117,13 @@ function buildMetadata(sample) {
     y: income,
     mode: "markers",
     type: "scatter",
+    marker: {
+      color: "green",
+      line: {
+        color: 'black',
+        width: .5
+      }
+    }
   }];
 
   var layout3 = {
@@ -124,10 +139,6 @@ function buildMetadata(sample) {
         }
     }
   };
-  
-//   var layout3 = {
-//     title: "Score vs Income"
-//   };
   
   
   Plotly.newPlot("bar3", trace3, layout3);
