@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: whitesmoke;
   }
   
   
@@ -9,8 +10,8 @@ body {
     position: relative;
     /* height: 500px;  or as desired 
     width: 700px;  This means "100% of the width of its container", the .col-md-8 */
-    height: 500px;
-    width: 600px;
+    height: 400px;
+    width: 100%;
 
 
   }

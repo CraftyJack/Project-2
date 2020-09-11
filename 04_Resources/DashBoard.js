@@ -1,5 +1,6 @@
-var geoData = "/Datasets/superfund_site_data.csv"
-//console.log(geoData.length)
+//var geoData = "Datasets/superfund_site_data copy.csv"
+var geoData = "03_Dataset/superfund_site_json.json"
+//console.log(geoData)
 
 var myMap = L.map("map", {
   // center: [37.09, -95.71],
@@ -19,7 +20,8 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 // Grab the data with d3
-d3.csv(geoData, function(data) {
+//d3.csv(geoData, function(data) {
+d3.json(geoData, function(data) {
   //console.log(data)
   // Create a new marker cluster group
   var markers = L.markerClusterGroup();
@@ -33,7 +35,7 @@ d3.csv(geoData, function(data) {
     //console.log(lat, lng)
 
     markers.addLayer(L.marker([lat, lng])
-    .bindPopup('<strong>Site Score: </strong>' + data[i].site_score));
+    .bindPopup('<strong>Site Score: </strong>' + data[i].site_score + '<br>' + '<strong> Address: </strong>' + data[i].address));
 
     
   }
