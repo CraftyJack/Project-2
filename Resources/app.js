@@ -141,15 +141,39 @@ Plotly.newPlot("bar3", trace3, layout3);
   });
 }
 
+// Original init function
+// function init() {
+//   var selector = d3.select("#selDataset");
+
+//    d3.json(state_list_file_location, function(data) {
+//   console.log("I am in init 1");
+
+//     var state = data.map(data => data.state_name);
+
+//     state.forEach((sample) => {
+//       selector
+//         .append("option")
+//         .text(sample)
+//         .property("value", sample);
+//     });
+
+//     var firstSample = selector.property("value");
+//     visualize(firstSample);
+//     buildMetadata(firstSample);
+
+//   });
+// }
+
 function init() {
   var selector = d3.select("#selDataset");
 
-   d3.json(state_list_file_location, function(data) {
+   d3.json(dataset_file_location, function(data) {
   console.log("I am in init 1");
+    var all_states = [...new Set(data.map(x => x.state_name))].sort();
+    all_states.shift();
+    // console.log(all_states);
 
-    var state = data.map(data => data.state_name);
-
-    state.forEach((sample) => {
+    all_states.forEach((sample) => {
       selector
         .append("option")
         .text(sample)
