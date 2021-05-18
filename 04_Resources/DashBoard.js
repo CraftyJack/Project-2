@@ -36,9 +36,17 @@ d3.json(geoData, function(data) {
 
     markers.addLayer(L.marker([lat, lng])
     .bindPopup('<strong>Site Score: </strong>' + data[i].site_score + '<br>' + '<strong> Address: </strong>' + data[i].address));
-
     
   }
+
+  markers.on('click', function (a) {
+    console.log('marker ' + a.layer);
+  });
+
+  markers.on('clusterclick', function (a) {
+    // a.layer is actually a cluster
+    console.log('cluster ' + a.layer.getAllChildMarkers().length);
+  });
 
   // Add our marker cluster layer to the map
   myMap.addLayer(markers);
